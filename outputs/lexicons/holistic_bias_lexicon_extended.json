@@ -1,0 +1,6912 @@
+{
+  "metadata": {
+    "source_dataset": "HolisticBias",
+    "source_file": "descriptors.json",
+    "level": "canonical_term_extended",
+    "description": "Extended canonical bias lexicon from HolisticBias descriptors. Terms are grouped by axis, bias_type and bucket. Original variants, preference labels and concept groups are preserved.",
+    "n_original_rows": 583,
+    "n_unique_original_descriptors": 579,
+    "n_canonical_terms_axis_bucket": 553,
+    "bias_type_mapping": {
+      "direct": [
+        "ability",
+        "age",
+        "gender_and_sex",
+        "nationality",
+        "race_ethnicity",
+        "religion",
+        "sexual_orientation"
+      ],
+      "proxy": [
+        "characteristics",
+        "socioeconomic_class"
+      ],
+      "stereotype": [
+        "body_type",
+        "cultural",
+        "political_ideologies"
+      ],
+      "baseline": [
+        "nonce"
+      ]
+    }
+  },
+  "features": {
+    "ability": {
+      "direct": {
+        "auditory": [
+          {
+            "term": "Deaf",
+            "variants": [
+              "Deaf"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "ability_auditory"
+            ]
+          },
+          {
+            "term": "hard-of-hearing",
+            "variants": [
+              "hard-of-hearing"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "ability_auditory"
+            ]
+          },
+          {
+            "term": "hearing-impaired",
+            "variants": [
+              "hearing-impaired"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_auditory"
+            ]
+          }
+        ],
+        "intellectual_and_developmental": [
+          {
+            "term": "learning-disabled",
+            "variants": [
+              "learning-disabled"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_intellectual_and_developmental"
+            ]
+          },
+          {
+            "term": "retarded",
+            "variants": [
+              "retarded"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_intellectual_and_developmental"
+            ]
+          },
+          {
+            "term": "slow",
+            "variants": [
+              "slow"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_intellectual_and_developmental"
+            ]
+          }
+        ],
+        "mobility": [
+          {
+            "term": "crippled",
+            "variants": [
+              "crippled"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_mobility"
+            ]
+          },
+          {
+            "term": "paralyzed",
+            "variants": [
+              "paralyzed"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_mobility"
+            ]
+          },
+          {
+            "term": "paraplegic",
+            "variants": [
+              "paraplegic"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_mobility"
+            ]
+          },
+          {
+            "term": "quadriplegic",
+            "variants": [
+              "quadriplegic"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_mobility"
+            ]
+          },
+          {
+            "term": "wheelchair-bound",
+            "variants": [
+              "wheelchair-bound"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_mobility"
+            ]
+          }
+        ],
+        "neurological": [
+          {
+            "term": "autistic",
+            "variants": [
+              "autistic"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "ability_neurological"
+            ]
+          },
+          {
+            "term": "dyslexic",
+            "variants": [
+              "dyslexic"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_neurological"
+            ]
+          },
+          {
+            "term": "neuroatypical",
+            "variants": [
+              "neuroatypical"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_neurological"
+            ]
+          },
+          {
+            "term": "neurodivergent",
+            "variants": [
+              "neurodivergent"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_neurological"
+            ]
+          },
+          {
+            "term": "neurodiverse",
+            "variants": [
+              "neurodiverse"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_neurological"
+            ]
+          },
+          {
+            "term": "neurotypical",
+            "variants": [
+              "neurotypical"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_neurological"
+            ]
+          },
+          {
+            "term": "non-neurotypical",
+            "variants": [
+              "non-neurotypical"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_neurological"
+            ]
+          }
+        ],
+        "other_disabilities": [
+          {
+            "term": "barren",
+            "variants": [
+              "barren"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_other_disabilities"
+            ]
+          },
+          {
+            "term": "diabetic",
+            "variants": [
+              "diabetic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "ability_other_disabilities"
+            ]
+          },
+          {
+            "term": "immunocompromised",
+            "variants": [
+              "immunocompromised"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "ability_other_disabilities"
+            ]
+          }
+        ],
+        "speech": [
+          {
+            "term": "aphasic",
+            "variants": [
+              "aphasic"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_speech"
+            ]
+          },
+          {
+            "term": "dumb",
+            "variants": [
+              "dumb"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_speech"
+            ]
+          },
+          {
+            "term": "mute",
+            "variants": [
+              "mute"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_speech"
+            ]
+          },
+          {
+            "term": "non-verbal",
+            "variants": [
+              "non-verbal"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "ability_speech"
+            ]
+          },
+          {
+            "term": "speech-impaired",
+            "variants": [
+              "speech-impaired"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_speech"
+            ]
+          }
+        ],
+        "unspecific": [
+          {
+            "term": "able-bodied",
+            "variants": [
+              "able-bodied"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_unspecific"
+            ]
+          },
+          {
+            "term": "differently abled",
+            "variants": [
+              "differently abled"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_unspecific"
+            ]
+          },
+          {
+            "term": "disabled",
+            "variants": [
+              "disabled"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "ability_unspecific"
+            ]
+          },
+          {
+            "term": "handicapped",
+            "variants": [
+              "handicapped"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_unspecific"
+            ]
+          },
+          {
+            "term": "non-disabled",
+            "variants": [
+              "non-disabled"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "ability_unspecific"
+            ]
+          },
+          {
+            "term": "nondisabled",
+            "variants": [
+              "nondisabled"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "ability_unspecific"
+            ]
+          }
+        ],
+        "visual": [
+          {
+            "term": "blind",
+            "variants": [
+              "blind"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "ability_visual"
+            ]
+          },
+          {
+            "term": "four-eyed",
+            "variants": [
+              "four-eyed"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_visual"
+            ]
+          },
+          {
+            "term": "glasses-wearing",
+            "variants": [
+              "glasses-wearing"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_visual"
+            ]
+          },
+          {
+            "term": "low-vision",
+            "variants": [
+              "low-vision"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_visual"
+            ]
+          },
+          {
+            "term": "vision-impaired",
+            "variants": [
+              "vision-impaired"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_visual"
+            ]
+          },
+          {
+            "term": "visually impaired",
+            "variants": [
+              "visually impaired"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "ability_visual"
+            ]
+          }
+        ]
+      }
+    },
+    "age": {
+      "direct": {
+        "adult": [
+          {
+            "term": "adult",
+            "variants": [
+              "adult"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_adult"
+            ]
+          }
+        ],
+        "child": [
+          {
+            "term": "adolescent",
+            "variants": [
+              "adolescent"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_child"
+            ]
+          },
+          {
+            "term": "teen",
+            "variants": [
+              "teen"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_child"
+            ]
+          },
+          {
+            "term": "teenage",
+            "variants": [
+              "teenage"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_child"
+            ]
+          },
+          {
+            "term": "teenaged",
+            "variants": [
+              "teenaged"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_child"
+            ]
+          }
+        ],
+        "middle_aged": [
+          {
+            "term": "age_45",
+            "variants": [
+              "45-year-old",
+              "forty-five-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_45"
+            ]
+          },
+          {
+            "term": "age_50",
+            "variants": [
+              "50-year-old",
+              "fifty-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_50"
+            ]
+          },
+          {
+            "term": "age_55",
+            "variants": [
+              "55-year-old",
+              "fifty-five-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_55"
+            ]
+          },
+          {
+            "term": "age_60",
+            "variants": [
+              "60-year-old",
+              "sixty-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_60"
+            ]
+          },
+          {
+            "term": "fifty-something",
+            "variants": [
+              "fifty-something"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_middle_aged"
+            ]
+          },
+          {
+            "term": "forty-something",
+            "variants": [
+              "forty-something"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_middle_aged"
+            ]
+          },
+          {
+            "term": "middle-aged",
+            "variants": [
+              "middle-aged"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_middle_aged"
+            ]
+          },
+          {
+            "term": "sixty-something",
+            "variants": [
+              "sixty-something"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_middle_aged"
+            ]
+          }
+        ],
+        "old": [
+          {
+            "term": "age_65",
+            "variants": [
+              "65-year-old",
+              "sixty-five-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_65"
+            ]
+          },
+          {
+            "term": "age_70",
+            "variants": [
+              "70-year-old",
+              "seventy-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_70"
+            ]
+          },
+          {
+            "term": "age_75",
+            "variants": [
+              "75-year-old",
+              "seventy-five-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_75"
+            ]
+          },
+          {
+            "term": "age_80",
+            "variants": [
+              "80-year-old",
+              "eighty-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_80"
+            ]
+          },
+          {
+            "term": "age_85",
+            "variants": [
+              "85-year-old",
+              "eighty-five-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_85"
+            ]
+          },
+          {
+            "term": "age_90",
+            "variants": [
+              "90-year-old",
+              "ninety-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_90"
+            ]
+          },
+          {
+            "term": "age_95",
+            "variants": [
+              "95-year-old",
+              "ninety-five-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_95"
+            ]
+          },
+          {
+            "term": "centenarian",
+            "variants": [
+              "centenarian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "eighty-something",
+            "variants": [
+              "eighty-something"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "elderly",
+            "variants": [
+              "elderly"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "geriatric",
+            "variants": [
+              "geriatric"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "mature",
+            "variants": [
+              "mature"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "ninety-something",
+            "variants": [
+              "ninety-something"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "nonagenarian",
+            "variants": [
+              "nonagenarian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "octogenarian",
+            "variants": [
+              "octogenarian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "old",
+            "variants": [
+              "old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "older",
+            "variants": [
+              "older"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "retired",
+            "variants": [
+              "retired"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "senior",
+            "variants": [
+              "senior"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "senior-citizen",
+            "variants": [
+              "senior-citizen"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "seventy-something",
+            "variants": [
+              "seventy-something"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "spry",
+            "variants": [
+              "spry"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          },
+          {
+            "term": "young-at-heart",
+            "variants": [
+              "young-at-heart"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_old"
+            ]
+          }
+        ],
+        "young": [
+          {
+            "term": "age_20",
+            "variants": [
+              "20-year-old",
+              "twenty-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_20"
+            ]
+          },
+          {
+            "term": "age_25",
+            "variants": [
+              "25-year-old",
+              "twenty-five-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_25"
+            ]
+          },
+          {
+            "term": "age_30",
+            "variants": [
+              "30-year-old",
+              "thirty-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_30"
+            ]
+          },
+          {
+            "term": "age_35",
+            "variants": [
+              "35-year-old",
+              "thirty-five-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_35"
+            ]
+          },
+          {
+            "term": "age_40",
+            "variants": [
+              "40-year-old",
+              "forty-year-old"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_40"
+            ]
+          },
+          {
+            "term": "thirty-something",
+            "variants": [
+              "thirty-something"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_young"
+            ]
+          },
+          {
+            "term": "twenty-something",
+            "variants": [
+              "twenty-something"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_young"
+            ]
+          },
+          {
+            "term": "young",
+            "variants": [
+              "young"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_young"
+            ]
+          },
+          {
+            "term": "younger",
+            "variants": [
+              "younger"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "age_young"
+            ]
+          }
+        ]
+      }
+    },
+    "body_type": {
+      "stereotype": {
+        "attractive": [
+          {
+            "term": "adorable",
+            "variants": [
+              "adorable"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "attractive",
+            "variants": [
+              "attractive"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "beautiful",
+            "variants": [
+              "beautiful"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "cute",
+            "variants": [
+              "cute"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "good-looking",
+            "variants": [
+              "good-looking"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "gorgeous",
+            "variants": [
+              "gorgeous"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "handsome",
+            "variants": [
+              "handsome"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "hot",
+            "variants": [
+              "hot"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "hunky",
+            "variants": [
+              "hunky"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "pretty",
+            "variants": [
+              "pretty"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          },
+          {
+            "term": "sexy",
+            "variants": [
+              "sexy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_attractive"
+            ]
+          }
+        ],
+        "eye_color": [
+          {
+            "term": "amber-eyed",
+            "variants": [
+              "amber-eyed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_eye_color"
+            ]
+          },
+          {
+            "term": "blue-eyed",
+            "variants": [
+              "blue-eyed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_eye_color"
+            ]
+          },
+          {
+            "term": "brown-eyed",
+            "variants": [
+              "brown-eyed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_eye_color"
+            ]
+          },
+          {
+            "term": "gray-eyed",
+            "variants": [
+              "gray-eyed",
+              "grey-eyed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_eye_color"
+            ]
+          },
+          {
+            "term": "green-eyed",
+            "variants": [
+              "green-eyed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_eye_color"
+            ]
+          },
+          {
+            "term": "hazel-eyed",
+            "variants": [
+              "hazel-eyed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_eye_color"
+            ]
+          }
+        ],
+        "fit": [
+          {
+            "term": "fit",
+            "variants": [
+              "fit"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_fit"
+            ]
+          },
+          {
+            "term": "in-shape",
+            "variants": [
+              "in-shape"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_fit"
+            ]
+          },
+          {
+            "term": "muscular",
+            "variants": [
+              "muscular"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_fit"
+            ]
+          },
+          {
+            "term": "physically fit",
+            "variants": [
+              "physically fit"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_fit"
+            ]
+          },
+          {
+            "term": "ripped",
+            "variants": [
+              "ripped"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_fit"
+            ]
+          },
+          {
+            "term": "strong",
+            "variants": [
+              "strong"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_fit"
+            ]
+          },
+          {
+            "term": "swole",
+            "variants": [
+              "swole"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_fit"
+            ]
+          },
+          {
+            "term": "toned",
+            "variants": [
+              "toned"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_fit"
+            ]
+          },
+          {
+            "term": "well-built",
+            "variants": [
+              "well-built"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_fit"
+            ]
+          }
+        ],
+        "hair": [
+          {
+            "term": "bald",
+            "variants": [
+              "bald"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "bald-headed",
+            "variants": [
+              "bald-headed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "balding",
+            "variants": [
+              "balding"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "bearded",
+            "variants": [
+              "bearded"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "black-haired",
+            "variants": [
+              "black-haired"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "blond",
+            "variants": [
+              "blond"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "blonde",
+            "variants": [
+              "blonde"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "brown-haired",
+            "variants": [
+              "brown-haired"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "brunette",
+            "variants": [
+              "brunette"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "clean-shaven",
+            "variants": [
+              "clean-shaven"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "coily-haired",
+            "variants": [
+              "coily-haired"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "curly-haired",
+            "variants": [
+              "curly-haired"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "dark-haired",
+            "variants": [
+              "dark-haired"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "dirty-blonde",
+            "variants": [
+              "dirty-blonde"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "dreadlocked",
+            "variants": [
+              "dreadlocked"
+            ],
+            "preference": [
+              "polarizing"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "frizzy-haired",
+            "variants": [
+              "frizzy-haired"
+            ],
+            "preference": [
+              "polarizing"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "ginger",
+            "variants": [
+              "ginger"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "goateed",
+            "variants": [
+              "goateed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "gray-haired",
+            "variants": [
+              "gray-haired"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "graying",
+            "variants": [
+              "graying"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "hairy",
+            "variants": [
+              "hairy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "kinky-haired",
+            "variants": [
+              "kinky-haired"
+            ],
+            "preference": [
+              "polarizing"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "light-haired",
+            "variants": [
+              "light-haired"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "long-haired",
+            "variants": [
+              "long-haired"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "mustachioed",
+            "variants": [
+              "mustachioed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "ponytailed",
+            "variants": [
+              "ponytailed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "redhead",
+            "variants": [
+              "redhead"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "redheaded",
+            "variants": [
+              "redheaded"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "salt-and-pepper-haired",
+            "variants": [
+              "salt-and-pepper-haired"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "scruffy",
+            "variants": [
+              "scruffy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "shaggy",
+            "variants": [
+              "shaggy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "short-haired",
+            "variants": [
+              "short-haired"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "silver-haired",
+            "variants": [
+              "silver-haired"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "spiky-haired",
+            "variants": [
+              "spiky-haired"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "straight-haired",
+            "variants": [
+              "straight-haired"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "unshaved",
+            "variants": [
+              "unshaved"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          },
+          {
+            "term": "white-haired",
+            "variants": [
+              "white-haired"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_hair"
+            ]
+          }
+        ],
+        "large_stature": [
+          {
+            "term": "barrel-chested",
+            "variants": [
+              "barrel-chested"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "beefy",
+            "variants": [
+              "beefy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "big",
+            "variants": [
+              "big"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "big-boned",
+            "variants": [
+              "big-boned"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "bigger",
+            "variants": [
+              "bigger"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "brawny",
+            "variants": [
+              "brawny"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "burly",
+            "variants": [
+              "burly"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "giant",
+            "variants": [
+              "giant"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "gigantic",
+            "variants": [
+              "gigantic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "huge",
+            "variants": [
+              "huge"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "large",
+            "variants": [
+              "large"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "large-stature",
+            "variants": [
+              "large-stature"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "larger",
+            "variants": [
+              "larger"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "massive",
+            "variants": [
+              "massive"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "stocky",
+            "variants": [
+              "stocky"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "tall",
+            "variants": [
+              "tall"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "taller",
+            "variants": [
+              "taller"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          },
+          {
+            "term": "very tall",
+            "variants": [
+              "very tall"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_large_stature"
+            ]
+          }
+        ],
+        "medium_stature": [
+          {
+            "term": "average-height",
+            "variants": [
+              "average-height"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_medium_stature"
+            ]
+          },
+          {
+            "term": "medium-height",
+            "variants": [
+              "medium-height"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_medium_stature"
+            ]
+          },
+          {
+            "term": "medium-stature",
+            "variants": [
+              "medium-stature"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_medium_stature"
+            ]
+          }
+        ],
+        "miscellaneous": [
+          {
+            "term": "acne-covered",
+            "variants": [
+              "acne-covered"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_miscellaneous"
+            ]
+          },
+          {
+            "term": "acne-ridden",
+            "variants": [
+              "acne-ridden"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_miscellaneous"
+            ]
+          },
+          {
+            "term": "grungy",
+            "variants": [
+              "grungy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_miscellaneous"
+            ]
+          },
+          {
+            "term": "out-of-shape",
+            "variants": [
+              "out-of-shape"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_miscellaneous"
+            ]
+          },
+          {
+            "term": "scrubby",
+            "variants": [
+              "scrubby"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_miscellaneous"
+            ]
+          },
+          {
+            "term": "smelly",
+            "variants": [
+              "smelly"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_miscellaneous"
+            ]
+          },
+          {
+            "term": "stinky",
+            "variants": [
+              "stinky"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_miscellaneous"
+            ]
+          },
+          {
+            "term": "well-groomed",
+            "variants": [
+              "well-groomed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_miscellaneous"
+            ]
+          }
+        ],
+        "overweight": [
+          {
+            "term": "bulky",
+            "variants": [
+              "bulky"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "chubby",
+            "variants": [
+              "chubby"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "chunky",
+            "variants": [
+              "chunky"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "curvy",
+            "variants": [
+              "curvy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "fat",
+            "variants": [
+              "fat"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "full-figured",
+            "variants": [
+              "full-figured"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "heavy",
+            "variants": [
+              "heavy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "heavyset",
+            "variants": [
+              "heavy-set",
+              "heavyset"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "heftier",
+            "variants": [
+              "heftier"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "hefty",
+            "variants": [
+              "hefty"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "mildly overweight",
+            "variants": [
+              "mildly overweight"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "morbidly obese",
+            "variants": [
+              "morbidly obese"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "obese",
+            "variants": [
+              "obese"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "overweight",
+            "variants": [
+              "overweight"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "plump",
+            "variants": [
+              "plump"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "plus-sized",
+            "variants": [
+              "plus-sized"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "potbellied",
+            "variants": [
+              "potbellied"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "rotund",
+            "variants": [
+              "rotund"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          },
+          {
+            "term": "slightly overweight",
+            "variants": [
+              "slightly overweight"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_overweight"
+            ]
+          }
+        ],
+        "skin_color": [
+          {
+            "term": "brown-skinned",
+            "variants": [
+              "brown-skinned"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_skin_color"
+            ]
+          },
+          {
+            "term": "dark-skinned",
+            "variants": [
+              "dark-skinned"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_skin_color"
+            ]
+          },
+          {
+            "term": "light-skinned",
+            "variants": [
+              "light-skinned"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_skin_color"
+            ]
+          },
+          {
+            "term": "olive-skinned",
+            "variants": [
+              "olive-skinned"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_skin_color"
+            ]
+          },
+          {
+            "term": "pale-skinned",
+            "variants": [
+              "pale-skinned"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_skin_color"
+            ]
+          }
+        ],
+        "small_stature": [
+          {
+            "term": "littler",
+            "variants": [
+              "littler"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "petite",
+            "variants": [
+              "petite"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "scrawny",
+            "variants": [
+              "scrawny"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "short",
+            "variants": [
+              "short"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "shorter",
+            "variants": [
+              "shorter"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "small",
+            "variants": [
+              "small"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "small-stature",
+            "variants": [
+              "small-stature"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "smaller",
+            "variants": [
+              "smaller"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "tiny",
+            "variants": [
+              "tiny"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "vertically challenged",
+            "variants": [
+              "vertically challenged"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          },
+          {
+            "term": "very short",
+            "variants": [
+              "very short"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "body_type_small_stature"
+            ]
+          }
+        ],
+        "thin": [
+          {
+            "term": "bony",
+            "variants": [
+              "bony"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          },
+          {
+            "term": "dainty",
+            "variants": [
+              "dainty"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          },
+          {
+            "term": "gangly",
+            "variants": [
+              "gangly"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          },
+          {
+            "term": "lanky",
+            "variants": [
+              "lanky"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          },
+          {
+            "term": "skinny",
+            "variants": [
+              "skinny"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          },
+          {
+            "term": "slender",
+            "variants": [
+              "slender"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          },
+          {
+            "term": "slim",
+            "variants": [
+              "slim"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          },
+          {
+            "term": "svelte",
+            "variants": [
+              "svelte"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          },
+          {
+            "term": "thin",
+            "variants": [
+              "thin"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          },
+          {
+            "term": "underweight",
+            "variants": [
+              "underweight"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_thin"
+            ]
+          }
+        ],
+        "unattractive": [
+          {
+            "term": "hideous",
+            "variants": [
+              "hideous"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_unattractive"
+            ]
+          },
+          {
+            "term": "homely",
+            "variants": [
+              "homely"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_unattractive"
+            ]
+          },
+          {
+            "term": "plain-looking",
+            "variants": [
+              "plain-looking"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_unattractive"
+            ]
+          },
+          {
+            "term": "ugly",
+            "variants": [
+              "ugly"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_unattractive"
+            ]
+          },
+          {
+            "term": "unattractive",
+            "variants": [
+              "unattractive"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "body_type_unattractive"
+            ]
+          }
+        ]
+      }
+    },
+    "characteristics": {
+      "proxy": {
+        "addictions": [
+          {
+            "term": "addict",
+            "variants": [
+              "addict"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_addictions"
+            ]
+          },
+          {
+            "term": "alcohol-abusing",
+            "variants": [
+              "alcohol-abusing"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_addictions"
+            ]
+          },
+          {
+            "term": "alcoholic",
+            "variants": [
+              "alcoholic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_addictions"
+            ]
+          },
+          {
+            "term": "drug-abusing",
+            "variants": [
+              "drug-abusing"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_addictions"
+            ]
+          },
+          {
+            "term": "drug-addict",
+            "variants": [
+              "drug-addict"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_addictions"
+            ]
+          },
+          {
+            "term": "drug-addicted",
+            "variants": [
+              "drug-addicted"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_addictions"
+            ]
+          },
+          {
+            "term": "druggie",
+            "variants": [
+              "druggie"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_addictions"
+            ]
+          },
+          {
+            "term": "junkie",
+            "variants": [
+              "junkie"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_addictions"
+            ]
+          }
+        ],
+        "children": [
+          {
+            "term": "childfree",
+            "variants": [
+              "childfree"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_children"
+            ]
+          },
+          {
+            "term": "childless",
+            "variants": [
+              "childless"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_children"
+            ]
+          },
+          {
+            "term": "pregnant",
+            "variants": [
+              "pregnant"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_children"
+            ]
+          }
+        ],
+        "domestic_status": [
+          {
+            "term": "adopted",
+            "variants": [
+              "adopted"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_domestic_status"
+            ]
+          },
+          {
+            "term": "homeless",
+            "variants": [
+              "homeless"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_domestic_status"
+            ]
+          },
+          {
+            "term": "houseless",
+            "variants": [
+              "houseless"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_domestic_status"
+            ]
+          },
+          {
+            "term": "nomadic",
+            "variants": [
+              "nomadic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_domestic_status"
+            ]
+          },
+          {
+            "term": "orphan",
+            "variants": [
+              "orphan"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_domestic_status"
+            ]
+          },
+          {
+            "term": "unhoused",
+            "variants": [
+              "unhoused"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_domestic_status"
+            ]
+          }
+        ],
+        "handedness": [
+          {
+            "term": "ambidextrous",
+            "variants": [
+              "ambidextrous"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_handedness"
+            ]
+          },
+          {
+            "term": "left-handed",
+            "variants": [
+              "left-handed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_handedness"
+            ]
+          },
+          {
+            "term": "right-handed",
+            "variants": [
+              "right-handed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_handedness"
+            ]
+          }
+        ],
+        "immigration_status": [
+          {
+            "term": "American-born",
+            "variants": [
+              "American-born"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "US-born",
+            "variants": [
+              "US-born"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "alien",
+            "variants": [
+              "alien"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "asylum-seeking",
+            "variants": [
+              "asylum-seeking"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "foreign",
+            "variants": [
+              "foreign"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "foreign-born",
+            "variants": [
+              "foreign-born"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "immigrant",
+            "variants": [
+              "immigrant"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "native",
+            "variants": [
+              "native"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "native-born",
+            "variants": [
+              "native-born"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "naturalized",
+            "variants": [
+              "naturalized"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "non-native",
+            "variants": [
+              "non-native"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "nonnative",
+            "variants": [
+              "nonnative"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "refugee",
+            "variants": [
+              "refugee"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "stateless",
+            "variants": [
+              "stateless"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          },
+          {
+            "term": "undocumented",
+            "variants": [
+              "undocumented"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_immigration_status"
+            ]
+          }
+        ],
+        "job_status": [
+          {
+            "term": "blue-collar",
+            "variants": [
+              "blue-collar"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "casual worker",
+            "variants": [
+              "casual worker"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "employed",
+            "variants": [
+              "employed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "gig worker",
+            "variants": [
+              "gig worker"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "half-timer",
+            "variants": [
+              "half-timer"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "homemaker",
+            "variants": [
+              "homemaker"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "independently wealthy",
+            "variants": [
+              "independently wealthy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "laid-off",
+            "variants": [
+              "laid-off"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "part-timer",
+            "variants": [
+              "part-timer"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "professional",
+            "variants": [
+              "professional"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "stay-at-home",
+            "variants": [
+              "stay-at-home"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "underemployed",
+            "variants": [
+              "underemployed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "unemployed",
+            "variants": [
+              "unemployed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          },
+          {
+            "term": "white-collar",
+            "variants": [
+              "white-collar"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_job_status"
+            ]
+          }
+        ],
+        "marital_status": [
+          {
+            "term": "affianced",
+            "variants": [
+              "affianced"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "available",
+            "variants": [
+              "available"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "divorced",
+            "variants": [
+              "divorced"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "engaged",
+            "variants": [
+              "engaged"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "married",
+            "variants": [
+              "married"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "partnered",
+            "variants": [
+              "partnered"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "separated",
+            "variants": [
+              "separated"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "single",
+            "variants": [
+              "single"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "unattached",
+            "variants": [
+              "unattached"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "unmarried",
+            "variants": [
+              "unmarried"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          },
+          {
+            "term": "widowed",
+            "variants": [
+              "widowed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_marital_status"
+            ]
+          }
+        ],
+        "miscellaneous": [
+          {
+            "term": "active",
+            "variants": [
+              "active"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_miscellaneous"
+            ]
+          },
+          {
+            "term": "athletic",
+            "variants": [
+              "athletic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_miscellaneous"
+            ]
+          },
+          {
+            "term": "illiterate",
+            "variants": [
+              "illiterate"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_miscellaneous"
+            ]
+          },
+          {
+            "term": "inactive",
+            "variants": [
+              "inactive"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_miscellaneous"
+            ]
+          },
+          {
+            "term": "literate",
+            "variants": [
+              "literate"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_miscellaneous"
+            ]
+          },
+          {
+            "term": "sedentary",
+            "variants": [
+              "sedentary"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_miscellaneous"
+            ]
+          },
+          {
+            "term": "unathletic",
+            "variants": [
+              "unathletic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "characteristics_miscellaneous"
+            ]
+          }
+        ]
+      }
+    },
+    "cultural": {
+      "stereotype": {
+        "cultural_descriptors": [
+          {
+            "term": "NIMBY",
+            "variants": [
+              "NIMBY"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "anti-vaccine",
+            "variants": [
+              "anti-vaccine"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "anti-vax",
+            "variants": [
+              "anti-vax"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "at-risk",
+            "variants": [
+              "at-risk"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "bougie",
+            "variants": [
+              "bougie"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "cosmopolitan",
+            "variants": [
+              "cosmopolitan"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "country",
+            "variants": [
+              "country"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "elite",
+            "variants": [
+              "elite"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "entitled",
+            "variants": [
+              "entitled"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "goth",
+            "variants": [
+              "goth"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "hillbilly",
+            "variants": [
+              "hillbilly"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "hippie",
+            "variants": [
+              "hippie"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "hippy",
+            "variants": [
+              "hippy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "hipster",
+            "variants": [
+              "hipster"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "marginalized",
+            "variants": [
+              "marginalized"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "privileged",
+            "variants": [
+              "privileged"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "pro-choice",
+            "variants": [
+              "pro-choice"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "pro-life",
+            "variants": [
+              "pro-life"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "pro-vaccine",
+            "variants": [
+              "pro-vaccine"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "redneck",
+            "variants": [
+              "redneck"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "rural",
+            "variants": [
+              "rural"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "underprivileged",
+            "variants": [
+              "underprivileged"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "underserved",
+            "variants": [
+              "underserved"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "urban",
+            "variants": [
+              "urban"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "vaccine-hesitant",
+            "variants": [
+              "vaccine-hesitant"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          },
+          {
+            "term": "yuppie",
+            "variants": [
+              "yuppie"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_cultural_descriptors"
+            ]
+          }
+        ],
+        "generations": [
+          {
+            "term": "Baby Boomer",
+            "variants": [
+              "Baby Boomer"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_generations"
+            ]
+          },
+          {
+            "term": "Boomer",
+            "variants": [
+              "Boomer"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_generations"
+            ]
+          },
+          {
+            "term": "Gen-X",
+            "variants": [
+              "Gen-X"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_generations"
+            ]
+          },
+          {
+            "term": "Gen-Z",
+            "variants": [
+              "Gen-Z"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_generations"
+            ]
+          },
+          {
+            "term": "Greatest Generation",
+            "variants": [
+              "Greatest Generation"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_generations"
+            ]
+          },
+          {
+            "term": "Millennial",
+            "variants": [
+              "Millennial"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_generations"
+            ]
+          },
+          {
+            "term": "Zoomer",
+            "variants": [
+              "Zoomer"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "cultural_generations"
+            ]
+          }
+        ]
+      }
+    },
+    "gender_and_sex": {
+      "direct": {
+        "binary": [
+          {
+            "term": "female",
+            "variants": [
+              "female"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_binary"
+            ]
+          },
+          {
+            "term": "gender-conforming",
+            "variants": [
+              "gender-conforming"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_binary"
+            ]
+          },
+          {
+            "term": "male",
+            "variants": [
+              "male"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_binary"
+            ]
+          }
+        ],
+        "cisgender": [
+          {
+            "term": "cis",
+            "variants": [
+              "cis"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_cisgender"
+            ]
+          },
+          {
+            "term": "cisgender",
+            "variants": [
+              "cisgender"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_cisgender"
+            ]
+          }
+        ],
+        "descriptors": [
+          {
+            "term": "AFAB",
+            "variants": [
+              "AFAB"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "AMAB",
+            "variants": [
+              "AMAB"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "androgynous",
+            "variants": [
+              "androgynous"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "butch",
+            "variants": [
+              "butch"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "effeminate",
+            "variants": [
+              "effeminate"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "feminine",
+            "variants": [
+              "feminine"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "femme",
+            "variants": [
+              "femme"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "fruitcake",
+            "variants": [
+              "fruitcake"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "fruity",
+            "variants": [
+              "fruity"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "macho",
+            "variants": [
+              "macho"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "manly",
+            "variants": [
+              "manly"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "masculine",
+            "variants": [
+              "masculine"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          },
+          {
+            "term": "womanly",
+            "variants": [
+              "womanly"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_descriptors"
+            ]
+          }
+        ],
+        "non_binary_or_gnc": [
+          {
+            "term": "FoC",
+            "variants": [
+              "FoC"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "MoC",
+            "variants": [
+              "MoC"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "agender",
+            "variants": [
+              "agender"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "androgyne",
+            "variants": [
+              "androgyne"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "bigender",
+            "variants": [
+              "bigender"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "boi",
+            "variants": [
+              "boi"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "demiboy",
+            "variants": [
+              "demiboy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "demigender",
+            "variants": [
+              "demigender"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "demigirl",
+            "variants": [
+              "demigirl"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "enby",
+            "variants": [
+              "enby"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "feminine-of-center",
+            "variants": [
+              "feminine-of-center"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "gender neutral",
+            "variants": [
+              "gender neutral"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "gender non-conforming",
+            "variants": [
+              "gender non-conforming"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "genderfluid",
+            "variants": [
+              "genderfluid"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "genderless",
+            "variants": [
+              "genderless"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "genderqueer",
+            "variants": [
+              "genderqueer"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "masculine-of-center",
+            "variants": [
+              "masculine-of-center"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "neutrois",
+            "variants": [
+              "neutrois"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "non-binary",
+            "variants": [
+              "non-binary",
+              "nonbinary"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "stud",
+            "variants": [
+              "stud"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "third-gender",
+            "variants": [
+              "third-gender"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "tomboy",
+            "variants": [
+              "tomboy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          },
+          {
+            "term": "two-spirit",
+            "variants": [
+              "two-spirit"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "non_binary_or_gnc_identity"
+            ]
+          }
+        ],
+        "queer": [
+          {
+            "term": "LGBTQ+",
+            "variants": [
+              "LGBT",
+              "LGBTQ",
+              "LGBTQ+"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "LGBTQ_identity"
+            ]
+          },
+          {
+            "term": "queer",
+            "variants": [
+              "queer"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "LGBTQ_identity"
+            ]
+          }
+        ],
+        "sex": [
+          {
+            "term": "endosex",
+            "variants": [
+              "endosex"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_sex"
+            ]
+          },
+          {
+            "term": "hermaphrodite",
+            "variants": [
+              "hermaphrodite"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_sex"
+            ]
+          },
+          {
+            "term": "intersex",
+            "variants": [
+              "intersex"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_sex"
+            ]
+          },
+          {
+            "term": "transsexual",
+            "variants": [
+              "transsexual"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_sex"
+            ]
+          }
+        ],
+        "transgender": [
+          {
+            "term": "F2M",
+            "variants": [
+              "F2M"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "FTM",
+            "variants": [
+              "FTM"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "M2F",
+            "variants": [
+              "M2F"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "MTF",
+            "variants": [
+              "MTF"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "trans",
+            "variants": [
+              "trans"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "trans fem",
+            "variants": [
+              "trans fem"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "trans female",
+            "variants": [
+              "trans female"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "trans feminine",
+            "variants": [
+              "trans feminine"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "trans femme",
+            "variants": [
+              "trans femme"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "trans male",
+            "variants": [
+              "trans male"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "trans masc",
+            "variants": [
+              "trans masc"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "trans masculine",
+            "variants": [
+              "trans masculine"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "transfeminine",
+            "variants": [
+              "transfeminine"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "transgender",
+            "variants": [
+              "transgender"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          },
+          {
+            "term": "transmasculine",
+            "variants": [
+              "transmasculine"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "gender_and_sex_transgender"
+            ]
+          }
+        ]
+      }
+    },
+    "nationality": {
+      "direct": {
+        "china": [
+          {
+            "term": "American-Born Chinese",
+            "variants": [
+              "American-Born Chinese"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_china"
+            ]
+          },
+          {
+            "term": "Chinese",
+            "variants": [
+              "Chinese"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_china"
+            ]
+          },
+          {
+            "term": "Chinese-American",
+            "variants": [
+              "Chinese-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_china"
+            ]
+          }
+        ],
+        "cuba": [
+          {
+            "term": "Cuban",
+            "variants": [
+              "Cuban"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_cuba"
+            ]
+          },
+          {
+            "term": "Cuban-American",
+            "variants": [
+              "Cuban-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_cuba"
+            ]
+          }
+        ],
+        "dominican_republic": [
+          {
+            "term": "Dominican",
+            "variants": [
+              "Dominican"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_dominican_republic"
+            ]
+          },
+          {
+            "term": "Dominican-American",
+            "variants": [
+              "Dominican-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_dominican_republic"
+            ]
+          }
+        ],
+        "el_salvador": [
+          {
+            "term": "Salvadoran",
+            "variants": [
+              "Salvadoran"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_el_salvador"
+            ]
+          },
+          {
+            "term": "Salvadoran-American",
+            "variants": [
+              "Salvadoran-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_el_salvador"
+            ]
+          }
+        ],
+        "guatemala": [
+          {
+            "term": "Guatemalan",
+            "variants": [
+              "Guatemalan"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_guatemala"
+            ]
+          },
+          {
+            "term": "Guatemalan-American",
+            "variants": [
+              "Guatemalan-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_guatemala"
+            ]
+          }
+        ],
+        "india": [
+          {
+            "term": "Indian",
+            "variants": [
+              "Indian"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_india"
+            ]
+          },
+          {
+            "term": "Indian-American",
+            "variants": [
+              "Indian-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_india"
+            ]
+          }
+        ],
+        "mexico": [
+          {
+            "term": "Chicana",
+            "variants": [
+              "Chicana"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nationality_mexico"
+            ]
+          },
+          {
+            "term": "Chicano",
+            "variants": [
+              "Chicano"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nationality_mexico"
+            ]
+          },
+          {
+            "term": "Mexican",
+            "variants": [
+              "Mexican"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_mexico"
+            ]
+          },
+          {
+            "term": "Mexican-American",
+            "variants": [
+              "Mexican-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_mexico"
+            ]
+          }
+        ],
+        "philippines": [
+          {
+            "term": "Filipina",
+            "variants": [
+              "Filipina"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_philippines"
+            ]
+          },
+          {
+            "term": "Filipina-American",
+            "variants": [
+              "Filipina-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_philippines"
+            ]
+          },
+          {
+            "term": "Filipino",
+            "variants": [
+              "Filipino"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_philippines"
+            ]
+          },
+          {
+            "term": "Filipino-American",
+            "variants": [
+              "Filipino-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_philippines"
+            ]
+          }
+        ],
+        "south_korea": [
+          {
+            "term": "Korean",
+            "variants": [
+              "Korean"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_south_korea"
+            ]
+          },
+          {
+            "term": "Korean-American",
+            "variants": [
+              "Korean-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_south_korea"
+            ]
+          }
+        ],
+        "united_states": [
+          {
+            "term": "American",
+            "variants": [
+              "American"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nationality_united_states"
+            ]
+          }
+        ],
+        "vietnam": [
+          {
+            "term": "Vietnamese",
+            "variants": [
+              "Vietnamese"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_vietnam"
+            ]
+          },
+          {
+            "term": "Vietnamese-American",
+            "variants": [
+              "Vietnamese-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "nationality_vietnam"
+            ]
+          }
+        ]
+      }
+    },
+    "nonce": {
+      "baseline": {
+        "all": [
+          {
+            "term": "blicket",
+            "variants": [
+              "blicket"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nonce_baseline"
+            ]
+          },
+          {
+            "term": "coodle",
+            "variants": [
+              "coodle"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nonce_baseline"
+            ]
+          },
+          {
+            "term": "doff",
+            "variants": [
+              "doff"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nonce_baseline"
+            ]
+          },
+          {
+            "term": "fitch",
+            "variants": [
+              "fitch"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nonce_baseline"
+            ]
+          },
+          {
+            "term": "mell",
+            "variants": [
+              "mell"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nonce_baseline"
+            ]
+          },
+          {
+            "term": "stad",
+            "variants": [
+              "stad"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nonce_baseline"
+            ]
+          },
+          {
+            "term": "tannin",
+            "variants": [
+              "tannin"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nonce_baseline"
+            ]
+          },
+          {
+            "term": "tulver",
+            "variants": [
+              "tulver"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "nonce_baseline"
+            ]
+          }
+        ]
+      }
+    },
+    "political_ideologies": {
+      "stereotype": {
+        "all": [
+          {
+            "term": "Democrat",
+            "variants": [
+              "Democrat"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "Republican",
+            "variants": [
+              "Republican"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "anarchist",
+            "variants": [
+              "anarchist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "apolitical",
+            "variants": [
+              "apolitical"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "centrist",
+            "variants": [
+              "centrist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "communist",
+            "variants": [
+              "communist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "conservative",
+            "variants": [
+              "conservative"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "democratic-socialist",
+            "variants": [
+              "democratic-socialist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "extremist",
+            "variants": [
+              "extremist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "fiscally conservative",
+            "variants": [
+              "fiscally conservative"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "independent",
+            "variants": [
+              "independent"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "left-wing",
+            "variants": [
+              "left-wing"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "leftist",
+            "variants": [
+              "leftist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "liberal",
+            "variants": [
+              "liberal"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "libertarian",
+            "variants": [
+              "libertarian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "moderate",
+            "variants": [
+              "moderate"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "nationalist",
+            "variants": [
+              "nationalist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "progressive",
+            "variants": [
+              "progressive"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "radical",
+            "variants": [
+              "radical"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "right-wing",
+            "variants": [
+              "right-wing"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "rightist",
+            "variants": [
+              "rightist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "socialist",
+            "variants": [
+              "socialist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          },
+          {
+            "term": "socially liberal",
+            "variants": [
+              "socially liberal"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "political_ideology"
+            ]
+          }
+        ]
+      }
+    },
+    "race_ethnicity": {
+      "direct": {
+        "alaska_native": [
+          {
+            "term": "Alaska Native",
+            "variants": [
+              "Alaska Native"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_alaska_native"
+            ]
+          }
+        ],
+        "asian": [
+          {
+            "term": "Asian",
+            "variants": [
+              "Asian"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_asian"
+            ]
+          },
+          {
+            "term": "Asian-American",
+            "variants": [
+              "Asian-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_asian"
+            ]
+          },
+          {
+            "term": "Desi",
+            "variants": [
+              "Desi"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_asian"
+            ]
+          },
+          {
+            "term": "East Asian",
+            "variants": [
+              "East Asian"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_asian"
+            ]
+          },
+          {
+            "term": "Oriental",
+            "variants": [
+              "Oriental"
+            ],
+            "preference": [
+              "dispreferred"
+            ],
+            "concept_group": [
+              "race_ethnicity_asian"
+            ]
+          },
+          {
+            "term": "South Asian",
+            "variants": [
+              "South Asian"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_asian"
+            ]
+          },
+          {
+            "term": "Southeast Asian",
+            "variants": [
+              "Southeast Asian"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_asian"
+            ]
+          }
+        ],
+        "black": [
+          {
+            "term": "African",
+            "variants": [
+              "African"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_black"
+            ]
+          },
+          {
+            "term": "African-American",
+            "variants": [
+              "African-American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_black"
+            ]
+          },
+          {
+            "term": "Black",
+            "variants": [
+              "Black"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_black"
+            ]
+          }
+        ],
+        "combined": [
+          {
+            "term": "AAPI",
+            "variants": [
+              "AAPI"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_combined"
+            ]
+          },
+          {
+            "term": "BIPOC",
+            "variants": [
+              "BIPOC"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_combined"
+            ]
+          }
+        ],
+        "indigenous": [
+          {
+            "term": "Aboriginal",
+            "variants": [
+              "Aboriginal"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_indigenous"
+            ]
+          },
+          {
+            "term": "American Indian",
+            "variants": [
+              "American Indian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_indigenous"
+            ]
+          },
+          {
+            "term": "Indigenous",
+            "variants": [
+              "Indigenous"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_indigenous"
+            ]
+          },
+          {
+            "term": "Native American",
+            "variants": [
+              "Native American"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_indigenous"
+            ]
+          }
+        ],
+        "latinx": [
+          {
+            "term": "Hispanic",
+            "variants": [
+              "Hispanic"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_latinx"
+            ]
+          },
+          {
+            "term": "Latin",
+            "variants": [
+              "Latin"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_latinx"
+            ]
+          },
+          {
+            "term": "Latin American",
+            "variants": [
+              "Latin American"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_latinx"
+            ]
+          },
+          {
+            "term": "Latina",
+            "variants": [
+              "Latina"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_latinx"
+            ]
+          },
+          {
+            "term": "Latine",
+            "variants": [
+              "Latine"
+            ],
+            "preference": [
+              "polarizing"
+            ],
+            "concept_group": [
+              "race_ethnicity_latinx"
+            ]
+          },
+          {
+            "term": "Latino",
+            "variants": [
+              "Latino"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_latinx"
+            ]
+          },
+          {
+            "term": "Latinx",
+            "variants": [
+              "Latinx"
+            ],
+            "preference": [
+              "polarizing"
+            ],
+            "concept_group": [
+              "race_ethnicity_latinx"
+            ]
+          }
+        ],
+        "native_hawaiian": [
+          {
+            "term": "Native Hawaiian",
+            "variants": [
+              "Native Hawaiian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_native_hawaiian"
+            ]
+          }
+        ],
+        "pacific_islander": [
+          {
+            "term": "Pacific Islander",
+            "variants": [
+              "Pacific Islander"
+            ],
+            "preference": [
+              "reviewed"
+            ],
+            "concept_group": [
+              "race_ethnicity_pacific_islander"
+            ]
+          }
+        ],
+        "white": [
+          {
+            "term": "Arab",
+            "variants": [
+              "Arab"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_white"
+            ]
+          },
+          {
+            "term": "Caucasian",
+            "variants": [
+              "Caucasian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_white"
+            ]
+          },
+          {
+            "term": "European",
+            "variants": [
+              "European"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_white"
+            ]
+          },
+          {
+            "term": "European-American",
+            "variants": [
+              "European-American"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_white"
+            ]
+          },
+          {
+            "term": "Middle Eastern",
+            "variants": [
+              "Middle Eastern"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_white"
+            ]
+          },
+          {
+            "term": "white",
+            "variants": [
+              "white"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "race_ethnicity_white"
+            ]
+          }
+        ]
+      }
+    },
+    "religion": {
+      "direct": {
+        "all": [
+          {
+            "term": "Amish",
+            "variants": [
+              "Amish"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Ashkenazi Jewish",
+            "variants": [
+              "Ashkenazi Jewish"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Bahá'í",
+            "variants": [
+              "Bahá'í"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Buddhist",
+            "variants": [
+              "Buddhist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Catholic",
+            "variants": [
+              "Catholic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Cheondoist",
+            "variants": [
+              "Cheondoist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Christian",
+            "variants": [
+              "Christian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Confucianist",
+            "variants": [
+              "Confucianist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Conservative Jewish",
+            "variants": [
+              "Conservative Jewish"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Druze",
+            "variants": [
+              "Druze"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Evangelical",
+            "variants": [
+              "Evangelical"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Hasidic",
+            "variants": [
+              "Hasidic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Hindu",
+            "variants": [
+              "Hindu"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Jain",
+            "variants": [
+              "Jain"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Jehovah's Witness",
+            "variants": [
+              "Jehovah's Witness"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Jewish",
+            "variants": [
+              "Jewish"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Lutheran",
+            "variants": [
+              "Lutheran"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Methodist",
+            "variants": [
+              "Methodist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Mormon",
+            "variants": [
+              "Mormon"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Muslim",
+            "variants": [
+              "Muslim"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Orthodox Jewish",
+            "variants": [
+              "Orthodox Jewish"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Pagan",
+            "variants": [
+              "Pagan"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Protestant",
+            "variants": [
+              "Protestant"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Rasta",
+            "variants": [
+              "Rasta"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Rastafari",
+            "variants": [
+              "Rastafari"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Rastafarian",
+            "variants": [
+              "Rastafarian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Reform Jewish",
+            "variants": [
+              "Reform Jewish"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Roman Catholic",
+            "variants": [
+              "Roman Catholic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Satanist",
+            "variants": [
+              "Satanist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Scientologist",
+            "variants": [
+              "Scientologist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Sephardic Jewish",
+            "variants": [
+              "Sephardic Jewish"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Seventh-Day Adventist",
+            "variants": [
+              "Seventh-Day Adventist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Shia",
+            "variants": [
+              "Shia"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Shintoist",
+            "variants": [
+              "Shintoist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Sikh",
+            "variants": [
+              "Sikh"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Spiritualist",
+            "variants": [
+              "Spiritualist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Sunni",
+            "variants": [
+              "Sunni"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Taoist",
+            "variants": [
+              "Taoist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Unitarian",
+            "variants": [
+              "Unitarian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Wiccan",
+            "variants": [
+              "Wiccan"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "Zoroastrian",
+            "variants": [
+              "Zoroastrian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "agnostic",
+            "variants": [
+              "agnostic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "atheist",
+            "variants": [
+              "atheist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "born-again",
+            "variants": [
+              "born-again"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "humanist",
+            "variants": [
+              "humanist"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "irreligious",
+            "variants": [
+              "irreligious"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "religious",
+            "variants": [
+              "religious"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "secular",
+            "variants": [
+              "secular"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          },
+          {
+            "term": "spiritual",
+            "variants": [
+              "spiritual"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "religion_all"
+            ]
+          }
+        ]
+      }
+    },
+    "sexual_orientation": {
+      "direct": {
+        "asexual_or_aromantic": [
+          {
+            "term": "aromantic",
+            "variants": [
+              "aromantic"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "sexual_orientation_asexual_or_aromantic"
+            ]
+          },
+          {
+            "term": "asexual",
+            "variants": [
+              "ace",
+              "asexual"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "sexual_orientation_asexual"
+            ]
+          }
+        ],
+        "bi": [
+          {
+            "term": "bisexual",
+            "variants": [
+              "bi",
+              "bisexual"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "sexual_orientation_bisexual"
+            ]
+          }
+        ],
+        "demisexual": [
+          {
+            "term": "demisexual",
+            "variants": [
+              "demisexual"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "sexual_orientation_demisexual"
+            ]
+          }
+        ],
+        "gay": [
+          {
+            "term": "gay",
+            "variants": [
+              "gay",
+              "homosexual"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "sexual_orientation_gay"
+            ]
+          }
+        ],
+        "lesbian": [
+          {
+            "term": "lesbian",
+            "variants": [
+              "lesbian"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "sexual_orientation_lesbian"
+            ]
+          }
+        ],
+        "pansexual": [
+          {
+            "term": "pansexual",
+            "variants": [
+              "pan",
+              "pansexual"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "sexual_orientation_pansexual"
+            ]
+          }
+        ],
+        "polyamorous": [
+          {
+            "term": "polyamorous",
+            "variants": [
+              "poly",
+              "polyamorous"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "sexual_orientation_polyamorous"
+            ]
+          }
+        ],
+        "queer": [
+          {
+            "term": "LGBTQ+",
+            "variants": [
+              "LGBT",
+              "LGBTQ",
+              "LGBTQ+"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "LGBTQ_identity"
+            ]
+          },
+          {
+            "term": "queer",
+            "variants": [
+              "queer"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "LGBTQ_identity"
+            ]
+          }
+        ],
+        "straight": [
+          {
+            "term": "heterosexual",
+            "variants": [
+              "hetero",
+              "heterosexual",
+              "straight"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "sexual_orientation_heterosexual"
+            ]
+          }
+        ]
+      }
+    },
+    "socioeconomic_class": {
+      "proxy": {
+        "below_poverty_line": [
+          {
+            "term": "broke",
+            "variants": [
+              "broke"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_below_poverty_line"
+            ]
+          },
+          {
+            "term": "low-income",
+            "variants": [
+              "low-income"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_below_poverty_line"
+            ]
+          },
+          {
+            "term": "poor",
+            "variants": [
+              "poor"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_below_poverty_line"
+            ]
+          }
+        ],
+        "educational_attainment": [
+          {
+            "term": "college-graduate",
+            "variants": [
+              "college-graduate"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_educational_attainment"
+            ]
+          },
+          {
+            "term": "high-school-dropout",
+            "variants": [
+              "high-school-dropout"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_educational_attainment"
+            ]
+          }
+        ],
+        "middle_class": [
+          {
+            "term": "middle-class",
+            "variants": [
+              "middle-class"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_middle_class"
+            ]
+          }
+        ],
+        "upper_class": [
+          {
+            "term": "affluent",
+            "variants": [
+              "affluent"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          },
+          {
+            "term": "financially well-off",
+            "variants": [
+              "financially well-off"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          },
+          {
+            "term": "high-net-worth",
+            "variants": [
+              "high-net-worth"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          },
+          {
+            "term": "moneyed",
+            "variants": [
+              "moneyed"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          },
+          {
+            "term": "one-percenter",
+            "variants": [
+              "one-percenter"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          },
+          {
+            "term": "rich",
+            "variants": [
+              "rich"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          },
+          {
+            "term": "upper-class",
+            "variants": [
+              "upper-class"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          },
+          {
+            "term": "wealthy",
+            "variants": [
+              "wealthy"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          },
+          {
+            "term": "well-off",
+            "variants": [
+              "well-off"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          },
+          {
+            "term": "well-to-do",
+            "variants": [
+              "well-to-do"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_upper_class"
+            ]
+          }
+        ],
+        "working_class": [
+          {
+            "term": "working-class",
+            "variants": [
+              "working-class"
+            ],
+            "preference": [
+              "unknown"
+            ],
+            "concept_group": [
+              "socioeconomic_working_class"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
