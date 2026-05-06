@@ -1,0 +1,233 @@
+{
+  "source_dataset": "CrowS-Pairs",
+  "features": {
+    "race-color": {
+      "direct": [
+        "african",
+        "african-american",
+        "asian",
+        "black",
+        "caucasian",
+        "hispanic",
+        "latino",
+        "white"
+      ],
+      "proxy": [
+        "chen",
+        "jamal",
+        "jerome",
+        "jose",
+        "juan",
+        "laquisha",
+        "lebron",
+        "lee",
+        "shaniqua",
+        "tyrone"
+      ],
+      "stereotype": []
+    },
+    "socioeconomic": {
+      "direct": [
+        "homeless",
+        "low",
+        "poor",
+        "poverty",
+        "rich",
+        "wealthy"
+      ],
+      "proxy": [
+        "cashier",
+        "construction",
+        "cops",
+        "janitor",
+        "laborer",
+        "officer",
+        "worker"
+      ],
+      "stereotype": [
+        "educated",
+        "gang",
+        "ghetto",
+        "meager",
+        "posh",
+        "stricken",
+        "successful",
+        "trailer",
+        "uneducated"
+      ]
+    },
+    "gender": {
+      "direct": [
+        "boy",
+        "boys",
+        "cis",
+        "female",
+        "girl",
+        "girls",
+        "he",
+        "her",
+        "him",
+        "his",
+        "male",
+        "man",
+        "men",
+        "she",
+        "trans",
+        "woman",
+        "women"
+      ],
+      "proxy": [
+        "bill",
+        "brad",
+        "carl",
+        "jennifer",
+        "jenny",
+        "jim",
+        "joe",
+        "john",
+        "lisa",
+        "marie",
+        "mary",
+        "sarah",
+        "susan",
+        "susie",
+        "tom"
+      ],
+      "stereotype": []
+    },
+    "disability": {
+      "direct": [
+        "autistic",
+        "disabled",
+        "dyslexia",
+        "handicapped",
+        "mental",
+        "palsy",
+        "syndrome",
+        "wheelchair"
+      ],
+      "proxy": [],
+      "stereotype": [
+        "crippled",
+        "gifted",
+        "normal",
+        "retard",
+        "retarded"
+      ]
+    },
+    "nationality": {
+      "direct": [
+        "american",
+        "arab",
+        "armenian",
+        "british",
+        "canadian",
+        "chinese",
+        "english",
+        "european",
+        "german",
+        "indian",
+        "italian",
+        "japanese",
+        "korean",
+        "mexican",
+        "russian"
+      ],
+      "proxy": [
+        "citizen",
+        "citizens",
+        "foreigner",
+        "immigrant"
+      ],
+      "stereotype": []
+    },
+    "sexual-orientation": {
+      "direct": [
+        "bisexual",
+        "gay",
+        "heterosexual",
+        "homosexual",
+        "lesbian",
+        "straight"
+      ],
+      "proxy": [
+        "boyfriend",
+        "girlfriend",
+        "openly",
+        "pride"
+      ],
+      "stereotype": [
+        "butches",
+        "perverted"
+      ]
+    },
+    "physical-appearance": {
+      "direct": [
+        "beautiful",
+        "fat",
+        "fit",
+        "handsome",
+        "muscular",
+        "obese",
+        "overweight",
+        "short",
+        "skinny",
+        "slim",
+        "tall",
+        "thin",
+        "ugly",
+        "underweight"
+      ],
+      "proxy": [],
+      "stereotype": [
+        "disfigured",
+        "hunchback",
+        "monstrous"
+      ]
+    },
+    "religion": {
+      "direct": [
+        "atheist",
+        "baptist",
+        "buddhist",
+        "catholic",
+        "christian",
+        "episcopalian",
+        "hindu",
+        "jew",
+        "jewish",
+        "lutheran",
+        "methodist",
+        "mormon",
+        "muslim",
+        "wiccan"
+      ],
+      "proxy": [
+        "bible",
+        "church",
+        "mosque",
+        "shrine",
+        "torah"
+      ],
+      "stereotype": []
+    },
+    "age": {
+      "direct": [
+        "adult",
+        "aged",
+        "child",
+        "elderly",
+        "middle-aged",
+        "minors",
+        "old",
+        "older",
+        "senior",
+        "teenage",
+        "teenager",
+        "young"
+      ],
+      "proxy": [],
+      "stereotype": []
+    }
+  }
+}
