@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_dataset": "HolisticBias",
-    "source_file": "descriptors.json",
+    "source_file": "../data/descriptors.json",
     "level": "canonical_term_extended",
     "description": "Extended canonical bias lexicon from HolisticBias descriptors. Terms are grouped by axis, bias_type and bucket. Original variants, preference labels and concept groups are preserved.",
     "n_original_rows": 583,
@@ -45,7 +45,8 @@
             ],
             "concept_group": [
               "ability_auditory"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hard-of-hearing",
@@ -57,7 +58,8 @@
             ],
             "concept_group": [
               "ability_auditory"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hearing-impaired",
@@ -69,7 +71,8 @@
             ],
             "concept_group": [
               "ability_auditory"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "intellectual_and_developmental": [
@@ -83,7 +86,8 @@
             ],
             "concept_group": [
               "ability_intellectual_and_developmental"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "retarded",
@@ -95,7 +99,8 @@
             ],
             "concept_group": [
               "ability_intellectual_and_developmental"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "slow",
@@ -107,7 +112,8 @@
             ],
             "concept_group": [
               "ability_intellectual_and_developmental"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "mobility": [
@@ -121,7 +127,8 @@
             ],
             "concept_group": [
               "ability_mobility"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "paralyzed",
@@ -133,7 +140,8 @@
             ],
             "concept_group": [
               "ability_mobility"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "paraplegic",
@@ -145,7 +153,8 @@
             ],
             "concept_group": [
               "ability_mobility"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "quadriplegic",
@@ -157,7 +166,8 @@
             ],
             "concept_group": [
               "ability_mobility"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "wheelchair-bound",
@@ -169,7 +179,8 @@
             ],
             "concept_group": [
               "ability_mobility"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "neurological": [
@@ -183,7 +194,8 @@
             ],
             "concept_group": [
               "ability_neurological"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "dyslexic",
@@ -195,7 +207,8 @@
             ],
             "concept_group": [
               "ability_neurological"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "neuroatypical",
@@ -207,7 +220,8 @@
             ],
             "concept_group": [
               "ability_neurological"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "neurodivergent",
@@ -219,7 +233,8 @@
             ],
             "concept_group": [
               "ability_neurological"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "neurodiverse",
@@ -231,7 +246,8 @@
             ],
             "concept_group": [
               "ability_neurological"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "neurotypical",
@@ -243,7 +259,8 @@
             ],
             "concept_group": [
               "ability_neurological"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "non-neurotypical",
@@ -255,7 +272,8 @@
             ],
             "concept_group": [
               "ability_neurological"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "other_disabilities": [
@@ -269,7 +287,8 @@
             ],
             "concept_group": [
               "ability_other_disabilities"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "diabetic",
@@ -281,7 +300,8 @@
             ],
             "concept_group": [
               "ability_other_disabilities"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "immunocompromised",
@@ -293,7 +313,8 @@
             ],
             "concept_group": [
               "ability_other_disabilities"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "speech": [
@@ -307,7 +328,8 @@
             ],
             "concept_group": [
               "ability_speech"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "dumb",
@@ -319,7 +341,8 @@
             ],
             "concept_group": [
               "ability_speech"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "mute",
@@ -331,7 +354,8 @@
             ],
             "concept_group": [
               "ability_speech"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "non-verbal",
@@ -343,7 +367,8 @@
             ],
             "concept_group": [
               "ability_speech"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "speech-impaired",
@@ -355,7 +380,8 @@
             ],
             "concept_group": [
               "ability_speech"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "unspecific": [
@@ -369,7 +395,8 @@
             ],
             "concept_group": [
               "ability_unspecific"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "differently abled",
@@ -381,7 +408,8 @@
             ],
             "concept_group": [
               "ability_unspecific"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "disabled",
@@ -393,7 +421,8 @@
             ],
             "concept_group": [
               "ability_unspecific"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "handicapped",
@@ -405,7 +434,8 @@
             ],
             "concept_group": [
               "ability_unspecific"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "non-disabled",
@@ -417,7 +447,8 @@
             ],
             "concept_group": [
               "ability_unspecific"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "nondisabled",
@@ -429,7 +460,8 @@
             ],
             "concept_group": [
               "ability_unspecific"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "visual": [
@@ -443,7 +475,8 @@
             ],
             "concept_group": [
               "ability_visual"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "four-eyed",
@@ -455,7 +488,8 @@
             ],
             "concept_group": [
               "ability_visual"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "glasses-wearing",
@@ -467,7 +501,8 @@
             ],
             "concept_group": [
               "ability_visual"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "low-vision",
@@ -479,7 +514,8 @@
             ],
             "concept_group": [
               "ability_visual"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "vision-impaired",
@@ -491,7 +527,8 @@
             ],
             "concept_group": [
               "ability_visual"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "visually impaired",
@@ -503,7 +540,8 @@
             ],
             "concept_group": [
               "ability_visual"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -521,7 +559,8 @@
             ],
             "concept_group": [
               "age_adult"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "child": [
@@ -535,7 +574,8 @@
             ],
             "concept_group": [
               "age_child"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "teen",
@@ -547,7 +587,8 @@
             ],
             "concept_group": [
               "age_child"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "teenage",
@@ -559,7 +600,8 @@
             ],
             "concept_group": [
               "age_child"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "teenaged",
@@ -571,7 +613,8 @@
             ],
             "concept_group": [
               "age_child"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "middle_aged": [
@@ -586,7 +629,8 @@
             ],
             "concept_group": [
               "age_45"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_50",
@@ -599,7 +643,8 @@
             ],
             "concept_group": [
               "age_50"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_55",
@@ -612,7 +657,8 @@
             ],
             "concept_group": [
               "age_55"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_60",
@@ -625,7 +671,8 @@
             ],
             "concept_group": [
               "age_60"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "fifty-something",
@@ -637,7 +684,8 @@
             ],
             "concept_group": [
               "age_middle_aged"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "forty-something",
@@ -649,7 +697,8 @@
             ],
             "concept_group": [
               "age_middle_aged"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "middle-aged",
@@ -661,7 +710,8 @@
             ],
             "concept_group": [
               "age_middle_aged"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "sixty-something",
@@ -673,7 +723,8 @@
             ],
             "concept_group": [
               "age_middle_aged"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "old": [
@@ -688,7 +739,8 @@
             ],
             "concept_group": [
               "age_65"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_70",
@@ -701,7 +753,8 @@
             ],
             "concept_group": [
               "age_70"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_75",
@@ -714,7 +767,8 @@
             ],
             "concept_group": [
               "age_75"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_80",
@@ -727,7 +781,8 @@
             ],
             "concept_group": [
               "age_80"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_85",
@@ -740,7 +795,8 @@
             ],
             "concept_group": [
               "age_85"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_90",
@@ -753,7 +809,8 @@
             ],
             "concept_group": [
               "age_90"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_95",
@@ -766,7 +823,8 @@
             ],
             "concept_group": [
               "age_95"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "centenarian",
@@ -778,7 +836,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "eighty-something",
@@ -790,7 +849,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "elderly",
@@ -802,7 +862,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "geriatric",
@@ -814,7 +875,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "mature",
@@ -826,7 +888,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "ninety-something",
@@ -838,7 +901,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "nonagenarian",
@@ -850,7 +914,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "octogenarian",
@@ -862,7 +927,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "old",
@@ -874,7 +940,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "older",
@@ -886,7 +953,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "retired",
@@ -898,7 +966,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "senior",
@@ -910,7 +979,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "senior-citizen",
@@ -922,7 +992,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "seventy-something",
@@ -934,7 +1005,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "spry",
@@ -946,7 +1018,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "young-at-heart",
@@ -958,7 +1031,8 @@
             ],
             "concept_group": [
               "age_old"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "young": [
@@ -973,7 +1047,8 @@
             ],
             "concept_group": [
               "age_20"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_25",
@@ -986,7 +1061,8 @@
             ],
             "concept_group": [
               "age_25"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_30",
@@ -999,7 +1075,8 @@
             ],
             "concept_group": [
               "age_30"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_35",
@@ -1012,7 +1089,8 @@
             ],
             "concept_group": [
               "age_35"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "age_40",
@@ -1025,7 +1103,8 @@
             ],
             "concept_group": [
               "age_40"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "thirty-something",
@@ -1037,7 +1116,8 @@
             ],
             "concept_group": [
               "age_young"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "twenty-something",
@@ -1049,7 +1129,8 @@
             ],
             "concept_group": [
               "age_young"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "young",
@@ -1061,7 +1142,8 @@
             ],
             "concept_group": [
               "age_young"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "younger",
@@ -1073,7 +1155,8 @@
             ],
             "concept_group": [
               "age_young"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -1091,7 +1174,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "attractive",
@@ -1103,7 +1187,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "beautiful",
@@ -1115,7 +1200,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "cute",
@@ -1127,7 +1213,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "good-looking",
@@ -1139,7 +1226,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "gorgeous",
@@ -1151,7 +1239,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "handsome",
@@ -1163,7 +1252,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hot",
@@ -1175,7 +1265,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hunky",
@@ -1187,7 +1278,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "pretty",
@@ -1199,7 +1291,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "sexy",
@@ -1211,7 +1304,8 @@
             ],
             "concept_group": [
               "body_type_attractive"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "eye_color": [
@@ -1225,7 +1319,8 @@
             ],
             "concept_group": [
               "body_type_eye_color"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "blue-eyed",
@@ -1237,7 +1332,8 @@
             ],
             "concept_group": [
               "body_type_eye_color"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "brown-eyed",
@@ -1249,7 +1345,8 @@
             ],
             "concept_group": [
               "body_type_eye_color"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "gray-eyed",
@@ -1262,7 +1359,8 @@
             ],
             "concept_group": [
               "body_type_eye_color"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "green-eyed",
@@ -1274,7 +1372,8 @@
             ],
             "concept_group": [
               "body_type_eye_color"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hazel-eyed",
@@ -1286,7 +1385,8 @@
             ],
             "concept_group": [
               "body_type_eye_color"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "fit": [
@@ -1300,7 +1400,8 @@
             ],
             "concept_group": [
               "body_type_fit"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "in-shape",
@@ -1312,7 +1413,8 @@
             ],
             "concept_group": [
               "body_type_fit"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "muscular",
@@ -1324,7 +1426,8 @@
             ],
             "concept_group": [
               "body_type_fit"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "physically fit",
@@ -1336,7 +1439,8 @@
             ],
             "concept_group": [
               "body_type_fit"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "ripped",
@@ -1348,7 +1452,8 @@
             ],
             "concept_group": [
               "body_type_fit"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "strong",
@@ -1360,7 +1465,8 @@
             ],
             "concept_group": [
               "body_type_fit"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "swole",
@@ -1372,7 +1478,8 @@
             ],
             "concept_group": [
               "body_type_fit"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "toned",
@@ -1384,7 +1491,8 @@
             ],
             "concept_group": [
               "body_type_fit"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "well-built",
@@ -1396,7 +1504,8 @@
             ],
             "concept_group": [
               "body_type_fit"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "hair": [
@@ -1410,7 +1519,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "bald-headed",
@@ -1422,7 +1532,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "balding",
@@ -1434,7 +1545,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "bearded",
@@ -1446,7 +1558,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "black-haired",
@@ -1458,7 +1571,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "blond",
@@ -1470,7 +1584,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "blonde",
@@ -1482,7 +1597,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "brown-haired",
@@ -1494,7 +1610,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "brunette",
@@ -1506,7 +1623,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "clean-shaven",
@@ -1518,7 +1636,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "coily-haired",
@@ -1530,7 +1649,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "curly-haired",
@@ -1542,7 +1662,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "dark-haired",
@@ -1554,7 +1675,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "dirty-blonde",
@@ -1566,7 +1688,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "dreadlocked",
@@ -1578,7 +1701,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "frizzy-haired",
@@ -1590,7 +1714,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "ginger",
@@ -1602,7 +1727,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "goateed",
@@ -1614,7 +1740,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "gray-haired",
@@ -1626,7 +1753,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "graying",
@@ -1638,7 +1766,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hairy",
@@ -1650,7 +1779,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "kinky-haired",
@@ -1662,7 +1792,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "light-haired",
@@ -1674,7 +1805,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "long-haired",
@@ -1686,7 +1818,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "mustachioed",
@@ -1698,7 +1831,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "ponytailed",
@@ -1710,7 +1844,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "redhead",
@@ -1722,7 +1857,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "redheaded",
@@ -1734,7 +1870,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "salt-and-pepper-haired",
@@ -1746,7 +1883,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "scruffy",
@@ -1758,7 +1896,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "shaggy",
@@ -1770,7 +1909,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "short-haired",
@@ -1782,7 +1922,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "silver-haired",
@@ -1794,7 +1935,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "spiky-haired",
@@ -1806,7 +1948,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "straight-haired",
@@ -1818,7 +1961,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "unshaved",
@@ -1830,7 +1974,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "white-haired",
@@ -1842,7 +1987,8 @@
             ],
             "concept_group": [
               "body_type_hair"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "large_stature": [
@@ -1856,7 +2002,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "beefy",
@@ -1868,7 +2015,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "big",
@@ -1880,7 +2028,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "big-boned",
@@ -1892,7 +2041,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "bigger",
@@ -1904,7 +2054,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "brawny",
@@ -1916,7 +2067,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "burly",
@@ -1928,7 +2080,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "giant",
@@ -1940,7 +2093,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "gigantic",
@@ -1952,7 +2106,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "huge",
@@ -1964,7 +2119,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "large",
@@ -1976,7 +2132,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "large-stature",
@@ -1988,7 +2145,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "larger",
@@ -2000,7 +2158,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "massive",
@@ -2012,7 +2171,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "stocky",
@@ -2024,7 +2184,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "tall",
@@ -2036,7 +2197,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "taller",
@@ -2048,7 +2210,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "very tall",
@@ -2060,7 +2223,8 @@
             ],
             "concept_group": [
               "body_type_large_stature"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "medium_stature": [
@@ -2074,7 +2238,8 @@
             ],
             "concept_group": [
               "body_type_medium_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "medium-height",
@@ -2086,7 +2251,8 @@
             ],
             "concept_group": [
               "body_type_medium_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "medium-stature",
@@ -2098,7 +2264,8 @@
             ],
             "concept_group": [
               "body_type_medium_stature"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "miscellaneous": [
@@ -2112,7 +2279,8 @@
             ],
             "concept_group": [
               "body_type_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "acne-ridden",
@@ -2124,7 +2292,8 @@
             ],
             "concept_group": [
               "body_type_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "grungy",
@@ -2136,7 +2305,8 @@
             ],
             "concept_group": [
               "body_type_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "out-of-shape",
@@ -2148,7 +2318,8 @@
             ],
             "concept_group": [
               "body_type_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "scrubby",
@@ -2160,7 +2331,8 @@
             ],
             "concept_group": [
               "body_type_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "smelly",
@@ -2172,7 +2344,8 @@
             ],
             "concept_group": [
               "body_type_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "stinky",
@@ -2184,7 +2357,8 @@
             ],
             "concept_group": [
               "body_type_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "well-groomed",
@@ -2196,7 +2370,8 @@
             ],
             "concept_group": [
               "body_type_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "overweight": [
@@ -2210,7 +2385,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "chubby",
@@ -2222,7 +2398,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "chunky",
@@ -2234,7 +2411,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "curvy",
@@ -2246,7 +2424,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "fat",
@@ -2258,7 +2437,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "full-figured",
@@ -2270,7 +2450,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "heavy",
@@ -2282,7 +2463,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "heavyset",
@@ -2295,7 +2477,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "heftier",
@@ -2307,7 +2490,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hefty",
@@ -2319,7 +2503,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "mildly overweight",
@@ -2331,7 +2516,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "morbidly obese",
@@ -2343,7 +2529,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "obese",
@@ -2355,7 +2542,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "overweight",
@@ -2367,7 +2555,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "plump",
@@ -2379,7 +2568,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "plus-sized",
@@ -2391,7 +2581,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "potbellied",
@@ -2403,7 +2594,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "rotund",
@@ -2415,7 +2607,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "slightly overweight",
@@ -2427,7 +2620,8 @@
             ],
             "concept_group": [
               "body_type_overweight"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "skin_color": [
@@ -2441,7 +2635,8 @@
             ],
             "concept_group": [
               "body_type_skin_color"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "dark-skinned",
@@ -2453,7 +2648,8 @@
             ],
             "concept_group": [
               "body_type_skin_color"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "light-skinned",
@@ -2465,7 +2661,8 @@
             ],
             "concept_group": [
               "body_type_skin_color"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "olive-skinned",
@@ -2477,7 +2674,8 @@
             ],
             "concept_group": [
               "body_type_skin_color"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "pale-skinned",
@@ -2489,7 +2687,8 @@
             ],
             "concept_group": [
               "body_type_skin_color"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "small_stature": [
@@ -2503,7 +2702,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "petite",
@@ -2515,7 +2715,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "scrawny",
@@ -2527,7 +2728,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "short",
@@ -2539,7 +2741,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "shorter",
@@ -2551,7 +2754,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "small",
@@ -2563,7 +2767,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "small-stature",
@@ -2575,7 +2780,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "smaller",
@@ -2587,7 +2793,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "tiny",
@@ -2599,7 +2806,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "vertically challenged",
@@ -2611,7 +2819,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "very short",
@@ -2623,7 +2832,8 @@
             ],
             "concept_group": [
               "body_type_small_stature"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "thin": [
@@ -2637,7 +2847,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "dainty",
@@ -2649,7 +2860,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "gangly",
@@ -2661,7 +2873,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "lanky",
@@ -2673,7 +2886,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "skinny",
@@ -2685,7 +2899,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "slender",
@@ -2697,7 +2912,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "slim",
@@ -2709,7 +2925,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "svelte",
@@ -2721,7 +2938,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "thin",
@@ -2733,7 +2951,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "underweight",
@@ -2745,7 +2964,8 @@
             ],
             "concept_group": [
               "body_type_thin"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "unattractive": [
@@ -2759,7 +2979,8 @@
             ],
             "concept_group": [
               "body_type_unattractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "homely",
@@ -2771,7 +2992,8 @@
             ],
             "concept_group": [
               "body_type_unattractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "plain-looking",
@@ -2783,7 +3005,8 @@
             ],
             "concept_group": [
               "body_type_unattractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "ugly",
@@ -2795,7 +3018,8 @@
             ],
             "concept_group": [
               "body_type_unattractive"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "unattractive",
@@ -2807,7 +3031,8 @@
             ],
             "concept_group": [
               "body_type_unattractive"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -2825,7 +3050,8 @@
             ],
             "concept_group": [
               "characteristics_addictions"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "alcohol-abusing",
@@ -2837,7 +3063,8 @@
             ],
             "concept_group": [
               "characteristics_addictions"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "alcoholic",
@@ -2849,7 +3076,8 @@
             ],
             "concept_group": [
               "characteristics_addictions"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "drug-abusing",
@@ -2861,7 +3089,8 @@
             ],
             "concept_group": [
               "characteristics_addictions"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "drug-addict",
@@ -2873,7 +3102,8 @@
             ],
             "concept_group": [
               "characteristics_addictions"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "drug-addicted",
@@ -2885,7 +3115,8 @@
             ],
             "concept_group": [
               "characteristics_addictions"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "druggie",
@@ -2897,7 +3128,8 @@
             ],
             "concept_group": [
               "characteristics_addictions"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "junkie",
@@ -2909,7 +3141,8 @@
             ],
             "concept_group": [
               "characteristics_addictions"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "children": [
@@ -2923,7 +3156,8 @@
             ],
             "concept_group": [
               "characteristics_children"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "childless",
@@ -2935,7 +3169,8 @@
             ],
             "concept_group": [
               "characteristics_children"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "pregnant",
@@ -2947,7 +3182,8 @@
             ],
             "concept_group": [
               "characteristics_children"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "domestic_status": [
@@ -2961,7 +3197,8 @@
             ],
             "concept_group": [
               "characteristics_domestic_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "homeless",
@@ -2973,7 +3210,8 @@
             ],
             "concept_group": [
               "characteristics_domestic_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "houseless",
@@ -2985,7 +3223,8 @@
             ],
             "concept_group": [
               "characteristics_domestic_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "nomadic",
@@ -2997,7 +3236,8 @@
             ],
             "concept_group": [
               "characteristics_domestic_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "orphan",
@@ -3009,7 +3249,8 @@
             ],
             "concept_group": [
               "characteristics_domestic_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "unhoused",
@@ -3021,7 +3262,8 @@
             ],
             "concept_group": [
               "characteristics_domestic_status"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "handedness": [
@@ -3035,7 +3277,8 @@
             ],
             "concept_group": [
               "characteristics_handedness"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "left-handed",
@@ -3047,7 +3290,8 @@
             ],
             "concept_group": [
               "characteristics_handedness"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "right-handed",
@@ -3059,7 +3303,8 @@
             ],
             "concept_group": [
               "characteristics_handedness"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "immigration_status": [
@@ -3073,7 +3318,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "US-born",
@@ -3085,7 +3331,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "alien",
@@ -3097,7 +3344,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "asylum-seeking",
@@ -3109,7 +3357,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "foreign",
@@ -3121,7 +3370,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "foreign-born",
@@ -3133,7 +3383,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "immigrant",
@@ -3145,7 +3396,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "native",
@@ -3157,7 +3409,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "native-born",
@@ -3169,7 +3422,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "naturalized",
@@ -3181,7 +3435,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "non-native",
@@ -3193,7 +3448,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "nonnative",
@@ -3205,7 +3461,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "refugee",
@@ -3217,7 +3474,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "stateless",
@@ -3229,7 +3487,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "undocumented",
@@ -3241,7 +3500,8 @@
             ],
             "concept_group": [
               "characteristics_immigration_status"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "job_status": [
@@ -3255,7 +3515,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "casual worker",
@@ -3267,7 +3528,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "employed",
@@ -3279,7 +3541,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "gig worker",
@@ -3291,7 +3554,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "half-timer",
@@ -3303,7 +3567,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "homemaker",
@@ -3315,7 +3580,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "independently wealthy",
@@ -3327,7 +3593,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "laid-off",
@@ -3339,7 +3606,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "part-timer",
@@ -3351,7 +3619,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "professional",
@@ -3363,7 +3632,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "stay-at-home",
@@ -3375,7 +3645,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "underemployed",
@@ -3387,7 +3658,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "unemployed",
@@ -3399,7 +3671,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "white-collar",
@@ -3411,7 +3684,8 @@
             ],
             "concept_group": [
               "characteristics_job_status"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "marital_status": [
@@ -3425,7 +3699,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "available",
@@ -3437,7 +3712,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "divorced",
@@ -3449,7 +3725,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "engaged",
@@ -3461,7 +3738,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "married",
@@ -3473,7 +3751,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "partnered",
@@ -3485,7 +3764,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "separated",
@@ -3497,7 +3777,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "single",
@@ -3509,7 +3790,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "unattached",
@@ -3521,7 +3803,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "unmarried",
@@ -3533,7 +3816,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "widowed",
@@ -3545,7 +3829,8 @@
             ],
             "concept_group": [
               "characteristics_marital_status"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "miscellaneous": [
@@ -3559,7 +3844,8 @@
             ],
             "concept_group": [
               "characteristics_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "athletic",
@@ -3571,7 +3857,8 @@
             ],
             "concept_group": [
               "characteristics_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "illiterate",
@@ -3583,7 +3870,8 @@
             ],
             "concept_group": [
               "characteristics_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "inactive",
@@ -3595,7 +3883,8 @@
             ],
             "concept_group": [
               "characteristics_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "literate",
@@ -3607,7 +3896,8 @@
             ],
             "concept_group": [
               "characteristics_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "sedentary",
@@ -3619,7 +3909,8 @@
             ],
             "concept_group": [
               "characteristics_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "unathletic",
@@ -3631,7 +3922,8 @@
             ],
             "concept_group": [
               "characteristics_miscellaneous"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -3649,7 +3941,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "anti-vaccine",
@@ -3661,7 +3954,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "anti-vax",
@@ -3673,7 +3967,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "at-risk",
@@ -3685,7 +3980,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "bougie",
@@ -3697,7 +3993,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "cosmopolitan",
@@ -3709,7 +4006,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "country",
@@ -3721,7 +4019,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "elite",
@@ -3733,7 +4032,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "entitled",
@@ -3745,7 +4045,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "goth",
@@ -3757,7 +4058,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hillbilly",
@@ -3769,7 +4071,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hippie",
@@ -3781,7 +4084,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hippy",
@@ -3793,7 +4097,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hipster",
@@ -3805,7 +4110,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "marginalized",
@@ -3817,7 +4123,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "privileged",
@@ -3829,7 +4136,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "pro-choice",
@@ -3841,7 +4149,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "pro-life",
@@ -3853,7 +4162,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "pro-vaccine",
@@ -3865,7 +4175,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "redneck",
@@ -3877,7 +4188,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "rural",
@@ -3889,7 +4201,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "underprivileged",
@@ -3901,7 +4214,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "underserved",
@@ -3913,7 +4227,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "urban",
@@ -3925,7 +4240,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "vaccine-hesitant",
@@ -3937,7 +4253,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "yuppie",
@@ -3949,7 +4266,8 @@
             ],
             "concept_group": [
               "cultural_cultural_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "generations": [
@@ -3963,7 +4281,8 @@
             ],
             "concept_group": [
               "cultural_generations"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Boomer",
@@ -3975,7 +4294,8 @@
             ],
             "concept_group": [
               "cultural_generations"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Gen-X",
@@ -3987,7 +4307,8 @@
             ],
             "concept_group": [
               "cultural_generations"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Gen-Z",
@@ -3999,7 +4320,8 @@
             ],
             "concept_group": [
               "cultural_generations"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Greatest Generation",
@@ -4011,7 +4333,8 @@
             ],
             "concept_group": [
               "cultural_generations"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Millennial",
@@ -4023,7 +4346,8 @@
             ],
             "concept_group": [
               "cultural_generations"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Zoomer",
@@ -4035,7 +4359,8 @@
             ],
             "concept_group": [
               "cultural_generations"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -4053,7 +4378,8 @@
             ],
             "concept_group": [
               "gender_and_sex_binary"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "gender-conforming",
@@ -4065,7 +4391,8 @@
             ],
             "concept_group": [
               "gender_and_sex_binary"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "male",
@@ -4077,7 +4404,8 @@
             ],
             "concept_group": [
               "gender_and_sex_binary"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "cisgender": [
@@ -4091,7 +4419,8 @@
             ],
             "concept_group": [
               "gender_and_sex_cisgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "cisgender",
@@ -4103,7 +4432,8 @@
             ],
             "concept_group": [
               "gender_and_sex_cisgender"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "descriptors": [
@@ -4117,7 +4447,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "AMAB",
@@ -4129,7 +4460,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "androgynous",
@@ -4141,7 +4473,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "butch",
@@ -4153,7 +4486,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "effeminate",
@@ -4165,7 +4499,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "feminine",
@@ -4177,7 +4512,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "femme",
@@ -4189,7 +4525,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "fruitcake",
@@ -4201,7 +4538,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "fruity",
@@ -4213,7 +4551,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "macho",
@@ -4225,7 +4564,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "manly",
@@ -4237,7 +4577,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "masculine",
@@ -4249,7 +4590,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "womanly",
@@ -4261,7 +4603,8 @@
             ],
             "concept_group": [
               "gender_and_sex_descriptors"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "non_binary_or_gnc": [
@@ -4275,7 +4618,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "MoC",
@@ -4287,7 +4631,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "agender",
@@ -4299,7 +4644,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "androgyne",
@@ -4311,7 +4657,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "bigender",
@@ -4323,7 +4670,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "boi",
@@ -4335,7 +4683,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "demiboy",
@@ -4347,7 +4696,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "demigender",
@@ -4359,7 +4709,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "demigirl",
@@ -4371,7 +4722,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "enby",
@@ -4383,7 +4735,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "feminine-of-center",
@@ -4395,7 +4748,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "gender neutral",
@@ -4407,7 +4761,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "gender non-conforming",
@@ -4419,7 +4774,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "genderfluid",
@@ -4431,7 +4787,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "genderless",
@@ -4443,7 +4800,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "genderqueer",
@@ -4455,7 +4813,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "masculine-of-center",
@@ -4467,7 +4826,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "neutrois",
@@ -4479,7 +4839,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "non-binary",
@@ -4492,7 +4853,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 2
           },
           {
             "term": "stud",
@@ -4504,7 +4866,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "third-gender",
@@ -4516,7 +4879,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "tomboy",
@@ -4528,7 +4892,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "two-spirit",
@@ -4540,7 +4905,8 @@
             ],
             "concept_group": [
               "non_binary_or_gnc_identity"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "queer": [
@@ -4556,7 +4922,8 @@
             ],
             "concept_group": [
               "LGBTQ_identity"
-            ]
+            ],
+            "n_original_rows": 3
           },
           {
             "term": "queer",
@@ -4568,7 +4935,8 @@
             ],
             "concept_group": [
               "LGBTQ_identity"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "sex": [
@@ -4582,7 +4950,8 @@
             ],
             "concept_group": [
               "gender_and_sex_sex"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "hermaphrodite",
@@ -4594,7 +4963,8 @@
             ],
             "concept_group": [
               "gender_and_sex_sex"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "intersex",
@@ -4606,7 +4976,8 @@
             ],
             "concept_group": [
               "gender_and_sex_sex"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "transsexual",
@@ -4618,7 +4989,8 @@
             ],
             "concept_group": [
               "gender_and_sex_sex"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "transgender": [
@@ -4632,7 +5004,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "FTM",
@@ -4644,7 +5017,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "M2F",
@@ -4656,7 +5030,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "MTF",
@@ -4668,7 +5043,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "trans",
@@ -4680,7 +5056,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "trans fem",
@@ -4692,7 +5069,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "trans female",
@@ -4704,7 +5082,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "trans feminine",
@@ -4716,7 +5095,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "trans femme",
@@ -4728,7 +5108,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "trans male",
@@ -4740,7 +5121,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "trans masc",
@@ -4752,7 +5134,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "trans masculine",
@@ -4764,7 +5147,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "transfeminine",
@@ -4776,7 +5160,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "transgender",
@@ -4788,7 +5173,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "transmasculine",
@@ -4800,7 +5186,8 @@
             ],
             "concept_group": [
               "gender_and_sex_transgender"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -4818,7 +5205,8 @@
             ],
             "concept_group": [
               "nationality_china"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Chinese",
@@ -4830,7 +5218,8 @@
             ],
             "concept_group": [
               "nationality_china"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Chinese-American",
@@ -4842,7 +5231,8 @@
             ],
             "concept_group": [
               "nationality_china"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "cuba": [
@@ -4856,7 +5246,8 @@
             ],
             "concept_group": [
               "nationality_cuba"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Cuban-American",
@@ -4868,7 +5259,8 @@
             ],
             "concept_group": [
               "nationality_cuba"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "dominican_republic": [
@@ -4882,7 +5274,8 @@
             ],
             "concept_group": [
               "nationality_dominican_republic"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Dominican-American",
@@ -4894,7 +5287,8 @@
             ],
             "concept_group": [
               "nationality_dominican_republic"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "el_salvador": [
@@ -4908,7 +5302,8 @@
             ],
             "concept_group": [
               "nationality_el_salvador"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Salvadoran-American",
@@ -4920,7 +5315,8 @@
             ],
             "concept_group": [
               "nationality_el_salvador"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "guatemala": [
@@ -4934,7 +5330,8 @@
             ],
             "concept_group": [
               "nationality_guatemala"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Guatemalan-American",
@@ -4946,7 +5343,8 @@
             ],
             "concept_group": [
               "nationality_guatemala"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "india": [
@@ -4960,7 +5358,8 @@
             ],
             "concept_group": [
               "nationality_india"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Indian-American",
@@ -4972,7 +5371,8 @@
             ],
             "concept_group": [
               "nationality_india"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "mexico": [
@@ -4986,7 +5386,8 @@
             ],
             "concept_group": [
               "nationality_mexico"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Chicano",
@@ -4998,7 +5399,8 @@
             ],
             "concept_group": [
               "nationality_mexico"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Mexican",
@@ -5010,7 +5412,8 @@
             ],
             "concept_group": [
               "nationality_mexico"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Mexican-American",
@@ -5022,7 +5425,8 @@
             ],
             "concept_group": [
               "nationality_mexico"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "philippines": [
@@ -5036,7 +5440,8 @@
             ],
             "concept_group": [
               "nationality_philippines"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Filipina-American",
@@ -5048,7 +5453,8 @@
             ],
             "concept_group": [
               "nationality_philippines"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Filipino",
@@ -5060,7 +5466,8 @@
             ],
             "concept_group": [
               "nationality_philippines"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Filipino-American",
@@ -5072,7 +5479,8 @@
             ],
             "concept_group": [
               "nationality_philippines"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "south_korea": [
@@ -5086,7 +5494,8 @@
             ],
             "concept_group": [
               "nationality_south_korea"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Korean-American",
@@ -5098,7 +5507,8 @@
             ],
             "concept_group": [
               "nationality_south_korea"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "united_states": [
@@ -5112,7 +5522,8 @@
             ],
             "concept_group": [
               "nationality_united_states"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "vietnam": [
@@ -5126,7 +5537,8 @@
             ],
             "concept_group": [
               "nationality_vietnam"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Vietnamese-American",
@@ -5138,7 +5550,8 @@
             ],
             "concept_group": [
               "nationality_vietnam"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -5156,7 +5569,8 @@
             ],
             "concept_group": [
               "nonce_baseline"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "coodle",
@@ -5168,7 +5582,8 @@
             ],
             "concept_group": [
               "nonce_baseline"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "doff",
@@ -5180,7 +5595,8 @@
             ],
             "concept_group": [
               "nonce_baseline"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "fitch",
@@ -5192,7 +5608,8 @@
             ],
             "concept_group": [
               "nonce_baseline"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "mell",
@@ -5204,7 +5621,8 @@
             ],
             "concept_group": [
               "nonce_baseline"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "stad",
@@ -5216,7 +5634,8 @@
             ],
             "concept_group": [
               "nonce_baseline"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "tannin",
@@ -5228,7 +5647,8 @@
             ],
             "concept_group": [
               "nonce_baseline"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "tulver",
@@ -5240,7 +5660,8 @@
             ],
             "concept_group": [
               "nonce_baseline"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -5258,7 +5679,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Republican",
@@ -5270,7 +5692,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "anarchist",
@@ -5282,7 +5705,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "apolitical",
@@ -5294,7 +5718,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "centrist",
@@ -5306,7 +5731,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "communist",
@@ -5318,7 +5744,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "conservative",
@@ -5330,7 +5757,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "democratic-socialist",
@@ -5342,7 +5770,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "extremist",
@@ -5354,7 +5783,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "fiscally conservative",
@@ -5366,7 +5796,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "independent",
@@ -5378,7 +5809,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "left-wing",
@@ -5390,7 +5822,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "leftist",
@@ -5402,7 +5835,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "liberal",
@@ -5414,7 +5848,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "libertarian",
@@ -5426,7 +5861,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "moderate",
@@ -5438,7 +5874,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "nationalist",
@@ -5450,7 +5887,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "progressive",
@@ -5462,7 +5900,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "radical",
@@ -5474,7 +5913,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "right-wing",
@@ -5486,7 +5926,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "rightist",
@@ -5498,7 +5939,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "socialist",
@@ -5510,7 +5952,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "socially liberal",
@@ -5522,7 +5965,8 @@
             ],
             "concept_group": [
               "political_ideology"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -5540,7 +5984,8 @@
             ],
             "concept_group": [
               "race_ethnicity_alaska_native"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "asian": [
@@ -5554,7 +5999,8 @@
             ],
             "concept_group": [
               "race_ethnicity_asian"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Asian-American",
@@ -5566,7 +6012,8 @@
             ],
             "concept_group": [
               "race_ethnicity_asian"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Desi",
@@ -5578,7 +6025,8 @@
             ],
             "concept_group": [
               "race_ethnicity_asian"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "East Asian",
@@ -5590,7 +6038,8 @@
             ],
             "concept_group": [
               "race_ethnicity_asian"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Oriental",
@@ -5602,7 +6051,8 @@
             ],
             "concept_group": [
               "race_ethnicity_asian"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "South Asian",
@@ -5614,7 +6064,8 @@
             ],
             "concept_group": [
               "race_ethnicity_asian"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Southeast Asian",
@@ -5626,7 +6077,8 @@
             ],
             "concept_group": [
               "race_ethnicity_asian"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "black": [
@@ -5640,7 +6092,8 @@
             ],
             "concept_group": [
               "race_ethnicity_black"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "African-American",
@@ -5652,7 +6105,8 @@
             ],
             "concept_group": [
               "race_ethnicity_black"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Black",
@@ -5664,7 +6118,8 @@
             ],
             "concept_group": [
               "race_ethnicity_black"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "combined": [
@@ -5678,7 +6133,8 @@
             ],
             "concept_group": [
               "race_ethnicity_combined"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "BIPOC",
@@ -5690,7 +6146,8 @@
             ],
             "concept_group": [
               "race_ethnicity_combined"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "indigenous": [
@@ -5704,7 +6161,8 @@
             ],
             "concept_group": [
               "race_ethnicity_indigenous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "American Indian",
@@ -5716,7 +6174,8 @@
             ],
             "concept_group": [
               "race_ethnicity_indigenous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Indigenous",
@@ -5728,7 +6187,8 @@
             ],
             "concept_group": [
               "race_ethnicity_indigenous"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Native American",
@@ -5740,7 +6200,8 @@
             ],
             "concept_group": [
               "race_ethnicity_indigenous"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "latinx": [
@@ -5754,7 +6215,8 @@
             ],
             "concept_group": [
               "race_ethnicity_latinx"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Latin",
@@ -5766,7 +6228,8 @@
             ],
             "concept_group": [
               "race_ethnicity_latinx"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Latin American",
@@ -5778,7 +6241,8 @@
             ],
             "concept_group": [
               "race_ethnicity_latinx"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Latina",
@@ -5790,7 +6254,8 @@
             ],
             "concept_group": [
               "race_ethnicity_latinx"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Latine",
@@ -5802,7 +6267,8 @@
             ],
             "concept_group": [
               "race_ethnicity_latinx"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Latino",
@@ -5814,7 +6280,8 @@
             ],
             "concept_group": [
               "race_ethnicity_latinx"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Latinx",
@@ -5826,7 +6293,8 @@
             ],
             "concept_group": [
               "race_ethnicity_latinx"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "native_hawaiian": [
@@ -5840,7 +6308,8 @@
             ],
             "concept_group": [
               "race_ethnicity_native_hawaiian"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "pacific_islander": [
@@ -5854,7 +6323,8 @@
             ],
             "concept_group": [
               "race_ethnicity_pacific_islander"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "white": [
@@ -5868,7 +6338,8 @@
             ],
             "concept_group": [
               "race_ethnicity_white"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Caucasian",
@@ -5880,7 +6351,8 @@
             ],
             "concept_group": [
               "race_ethnicity_white"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "European",
@@ -5892,7 +6364,8 @@
             ],
             "concept_group": [
               "race_ethnicity_white"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "European-American",
@@ -5904,7 +6377,8 @@
             ],
             "concept_group": [
               "race_ethnicity_white"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Middle Eastern",
@@ -5916,7 +6390,8 @@
             ],
             "concept_group": [
               "race_ethnicity_white"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "white",
@@ -5928,7 +6403,8 @@
             ],
             "concept_group": [
               "race_ethnicity_white"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -5946,7 +6422,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Ashkenazi Jewish",
@@ -5958,7 +6435,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Bahá'í",
@@ -5970,7 +6448,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Buddhist",
@@ -5982,7 +6461,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Catholic",
@@ -5994,7 +6474,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Cheondoist",
@@ -6006,7 +6487,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Christian",
@@ -6018,7 +6500,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Confucianist",
@@ -6030,7 +6513,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Conservative Jewish",
@@ -6042,7 +6526,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Druze",
@@ -6054,7 +6539,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Evangelical",
@@ -6066,7 +6552,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Hasidic",
@@ -6078,7 +6565,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Hindu",
@@ -6090,7 +6578,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Jain",
@@ -6102,7 +6591,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Jehovah's Witness",
@@ -6114,7 +6604,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Jewish",
@@ -6126,7 +6617,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Lutheran",
@@ -6138,7 +6630,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Methodist",
@@ -6150,7 +6643,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Mormon",
@@ -6162,7 +6656,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Muslim",
@@ -6174,7 +6669,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Orthodox Jewish",
@@ -6186,7 +6682,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Pagan",
@@ -6198,7 +6695,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Protestant",
@@ -6210,7 +6708,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Rasta",
@@ -6222,7 +6721,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Rastafari",
@@ -6234,7 +6734,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Rastafarian",
@@ -6246,7 +6747,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Reform Jewish",
@@ -6258,7 +6760,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Roman Catholic",
@@ -6270,7 +6773,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Satanist",
@@ -6282,7 +6786,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Scientologist",
@@ -6294,7 +6799,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Sephardic Jewish",
@@ -6306,7 +6812,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Seventh-Day Adventist",
@@ -6318,7 +6825,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Shia",
@@ -6330,7 +6838,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Shintoist",
@@ -6342,7 +6851,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Sikh",
@@ -6354,7 +6864,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Spiritualist",
@@ -6366,7 +6877,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Sunni",
@@ -6378,7 +6890,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Taoist",
@@ -6390,7 +6903,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Unitarian",
@@ -6402,7 +6916,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Wiccan",
@@ -6414,7 +6929,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "Zoroastrian",
@@ -6426,7 +6942,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "agnostic",
@@ -6438,7 +6955,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "atheist",
@@ -6450,7 +6968,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "born-again",
@@ -6462,7 +6981,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "humanist",
@@ -6474,7 +6994,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "irreligious",
@@ -6486,7 +7007,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "religious",
@@ -6498,7 +7020,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "secular",
@@ -6510,7 +7033,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "spiritual",
@@ -6522,7 +7046,8 @@
             ],
             "concept_group": [
               "religion_all"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }
@@ -6540,7 +7065,8 @@
             ],
             "concept_group": [
               "sexual_orientation_asexual_or_aromantic"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "asexual",
@@ -6553,7 +7079,8 @@
             ],
             "concept_group": [
               "sexual_orientation_asexual"
-            ]
+            ],
+            "n_original_rows": 2
           }
         ],
         "bi": [
@@ -6568,7 +7095,8 @@
             ],
             "concept_group": [
               "sexual_orientation_bisexual"
-            ]
+            ],
+            "n_original_rows": 2
           }
         ],
         "demisexual": [
@@ -6582,7 +7110,8 @@
             ],
             "concept_group": [
               "sexual_orientation_demisexual"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "gay": [
@@ -6597,7 +7126,8 @@
             ],
             "concept_group": [
               "sexual_orientation_gay"
-            ]
+            ],
+            "n_original_rows": 2
           }
         ],
         "lesbian": [
@@ -6611,7 +7141,8 @@
             ],
             "concept_group": [
               "sexual_orientation_lesbian"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "pansexual": [
@@ -6626,7 +7157,8 @@
             ],
             "concept_group": [
               "sexual_orientation_pansexual"
-            ]
+            ],
+            "n_original_rows": 2
           }
         ],
         "polyamorous": [
@@ -6641,7 +7173,8 @@
             ],
             "concept_group": [
               "sexual_orientation_polyamorous"
-            ]
+            ],
+            "n_original_rows": 2
           }
         ],
         "queer": [
@@ -6657,7 +7190,8 @@
             ],
             "concept_group": [
               "LGBTQ_identity"
-            ]
+            ],
+            "n_original_rows": 3
           },
           {
             "term": "queer",
@@ -6669,7 +7203,8 @@
             ],
             "concept_group": [
               "LGBTQ_identity"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "straight": [
@@ -6685,7 +7220,8 @@
             ],
             "concept_group": [
               "sexual_orientation_heterosexual"
-            ]
+            ],
+            "n_original_rows": 3
           }
         ]
       }
@@ -6703,7 +7239,8 @@
             ],
             "concept_group": [
               "socioeconomic_below_poverty_line"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "low-income",
@@ -6715,7 +7252,8 @@
             ],
             "concept_group": [
               "socioeconomic_below_poverty_line"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "poor",
@@ -6727,7 +7265,8 @@
             ],
             "concept_group": [
               "socioeconomic_below_poverty_line"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "educational_attainment": [
@@ -6741,7 +7280,8 @@
             ],
             "concept_group": [
               "socioeconomic_educational_attainment"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "high-school-dropout",
@@ -6753,7 +7293,8 @@
             ],
             "concept_group": [
               "socioeconomic_educational_attainment"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "middle_class": [
@@ -6767,7 +7308,8 @@
             ],
             "concept_group": [
               "socioeconomic_middle_class"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "upper_class": [
@@ -6781,7 +7323,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "financially well-off",
@@ -6793,7 +7336,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "high-net-worth",
@@ -6805,7 +7349,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "moneyed",
@@ -6817,7 +7362,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "one-percenter",
@@ -6829,7 +7375,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "rich",
@@ -6841,7 +7388,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "upper-class",
@@ -6853,7 +7401,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "wealthy",
@@ -6865,7 +7414,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "well-off",
@@ -6877,7 +7427,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           },
           {
             "term": "well-to-do",
@@ -6889,7 +7440,8 @@
             ],
             "concept_group": [
               "socioeconomic_upper_class"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ],
         "working_class": [
@@ -6903,7 +7455,8 @@
             ],
             "concept_group": [
               "socioeconomic_working_class"
-            ]
+            ],
+            "n_original_rows": 1
           }
         ]
       }

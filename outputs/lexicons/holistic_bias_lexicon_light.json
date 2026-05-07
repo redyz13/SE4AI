@@ -1,12 +1,35 @@
 {
   "metadata": {
     "source_dataset": "HolisticBias",
-    "source_file": "descriptors.json",
+    "source_file": "../data/descriptors.json",
     "level": "canonical_term_light",
     "description": "Light canonical bias lexicon from HolisticBias descriptors. Terms are grouped by axis, bias_type and bucket. Variants are merged into canonical terms.",
     "n_original_rows": 583,
     "n_unique_original_descriptors": 579,
-    "n_canonical_terms_axis_bucket": 553
+    "n_canonical_terms_axis_bucket": 553,
+    "bias_type_mapping": {
+      "direct": [
+        "ability",
+        "age",
+        "gender_and_sex",
+        "nationality",
+        "race_ethnicity",
+        "religion",
+        "sexual_orientation"
+      ],
+      "proxy": [
+        "characteristics",
+        "socioeconomic_class"
+      ],
+      "stereotype": [
+        "body_type",
+        "cultural",
+        "political_ideologies"
+      ],
+      "baseline": [
+        "nonce"
+      ]
+    }
   },
   "features": {
     "ability": {
