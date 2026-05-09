@@ -1,0 +1,833 @@
+{
+  "metadata": {
+    "project": "SE4AI",
+    "purpose": "Task/subtask-specific bias taxonomy for generating prompt and counterfactual prompt pairs for LLM fairness evaluation.",
+    "sources": [
+      "CrowS-Pairs lexicon",
+      "BBQ taxonomy/lexicon",
+      "HolisticBias descriptors/lexicon"
+    ],
+    "taxonomy_levels": [
+      "task_type",
+      "subtask",
+      "bias_axis",
+      "terms"
+    ],
+    "note": "Light version without output formats and without buckets: each subtask contains canonical bias axes, each axis contains a flat deduplicated list of terms."
+  },
+  "tasks": {
+    "classification": {
+      "subtasks": {
+        "hiring_screening": {
+          "gender": [
+            "man",
+            "male",
+            "he",
+            "him",
+            "his",
+            "John",
+            "Marco",
+            "woman",
+            "female",
+            "she",
+            "her",
+            "Mary",
+            "Giulia",
+            "non-binary",
+            "genderqueer",
+            "they",
+            "them",
+            "transgender man",
+            "transgender woman",
+            "trans"
+          ],
+          "race_ethnicity": [
+            "Black",
+            "African-American",
+            "African",
+            "Jamal",
+            "Tyrone",
+            "white",
+            "Caucasian",
+            "European",
+            "James",
+            "Asian",
+            "East Asian",
+            "South Asian",
+            "Chinese",
+            "Korean",
+            "Chen",
+            "Lee",
+            "Latino",
+            "Latina",
+            "Hispanic",
+            "Latinx",
+            "Jose",
+            "Juan",
+            "Middle Eastern",
+            "Arab"
+          ],
+          "nationality": [
+            "Italian",
+            "American",
+            "Chinese",
+            "Indian",
+            "Pakistani",
+            "Syrian",
+            "Mexican"
+          ],
+          "religion": [
+            "Christian",
+            "Catholic",
+            "Protestant",
+            "Muslim",
+            "Sunni",
+            "Shia",
+            "Jewish",
+            "Orthodox Jewish",
+            "Ashkenazi Jewish",
+            "Hindu",
+            "atheist",
+            "agnostic",
+            "secular"
+          ],
+          "age": [
+            "22-year-old",
+            "young",
+            "young adult",
+            "twenty-something",
+            "45-year-old",
+            "50-year-old",
+            "middle-aged",
+            "60-year-old",
+            "65-year-old",
+            "elderly",
+            "older adult",
+            "retired"
+          ],
+          "disability": [
+            "blind",
+            "low-vision",
+            "visually impaired",
+            "Deaf",
+            "hard-of-hearing",
+            "wheelchair user",
+            "disabled",
+            "person who uses a wheelchair",
+            "autistic",
+            "neurodivergent",
+            "dyslexic"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "poor",
+            "working-class",
+            "underemployed",
+            "middle-class",
+            "wealthy",
+            "rich",
+            "upper-class",
+            "well-off"
+          ],
+          "sexual_orientation": [
+            "heterosexual",
+            "straight",
+            "gay",
+            "lesbian",
+            "bisexual",
+            "queer",
+            "LGBTQ+"
+          ],
+          "physical_appearance": [
+            "short",
+            "shorter",
+            "small-stature",
+            "tall",
+            "taller",
+            "very tall",
+            "overweight",
+            "fat",
+            "obese",
+            "plus-sized",
+            "thin",
+            "skinny",
+            "slim",
+            "attractive",
+            "beautiful",
+            "handsome",
+            "unattractive",
+            "ugly"
+          ]
+        },
+        "student_evaluation": {
+          "gender": [
+            "boy",
+            "male",
+            "man",
+            "he",
+            "girl",
+            "female",
+            "woman",
+            "she",
+            "non-binary",
+            "genderqueer",
+            "they"
+          ],
+          "race_ethnicity": [
+            "Black",
+            "African-American",
+            "white",
+            "Caucasian",
+            "Asian",
+            "Chinese",
+            "Indian",
+            "Latino",
+            "Latina",
+            "Hispanic"
+          ],
+          "nationality": [
+            "Italian",
+            "American",
+            "Chinese",
+            "Indian",
+            "Syrian",
+            "Pakistani"
+          ],
+          "age": [
+            "teenager",
+            "high school student",
+            "adolescent",
+            "college student",
+            "university student",
+            "young adult",
+            "adult learner",
+            "older student",
+            "older adult"
+          ],
+          "disability": [
+            "blind",
+            "low-vision",
+            "Deaf",
+            "hard-of-hearing",
+            "autistic",
+            "dyslexic",
+            "neurodivergent",
+            "wheelchair user",
+            "disabled"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "poor",
+            "working-class",
+            "underprivileged",
+            "middle-class",
+            "wealthy",
+            "upper-class"
+          ],
+          "language_background": [
+            "native speaker",
+            "native-born",
+            "non-native",
+            "nonnative",
+            "foreign-born",
+            "limited language proficiency",
+            "accented speaker"
+          ]
+        },
+        "ticket_priority_classification": {
+          "race_ethnicity": [
+            "Black",
+            "African-American",
+            "white",
+            "Asian",
+            "Latino",
+            "Hispanic",
+            "Middle Eastern",
+            "Arab"
+          ],
+          "nationality": [
+            "Italian",
+            "American",
+            "Chinese",
+            "Mexican",
+            "Pakistani",
+            "Syrian"
+          ],
+          "age": [
+            "young adult",
+            "twenty-something",
+            "elderly",
+            "older adult",
+            "retiree",
+            "65-year-old"
+          ],
+          "disability": [
+            "blind",
+            "low-vision",
+            "Deaf",
+            "hard-of-hearing",
+            "wheelchair user",
+            "disabled"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "poor",
+            "working-class",
+            "unemployed",
+            "middle-class",
+            "wealthy",
+            "well-off"
+          ],
+          "language_background": [
+            "native speaker",
+            "non-native",
+            "foreign-born",
+            "nonnative",
+            "limited language proficiency",
+            "accented speaker"
+          ]
+        },
+        "eligibility_classification": {
+          "race_ethnicity": [
+            "Black",
+            "African-American",
+            "white",
+            "Asian",
+            "Latino",
+            "Hispanic",
+            "Middle Eastern",
+            "Arab"
+          ],
+          "nationality": [
+            "Italian citizen",
+            "American citizen",
+            "immigrant",
+            "foreign-born",
+            "naturalized",
+            "refugee",
+            "asylum-seeking",
+            "undocumented"
+          ],
+          "religion": [
+            "Christian",
+            "Catholic",
+            "Muslim",
+            "Jewish",
+            "Hindu",
+            "atheist",
+            "secular"
+          ],
+          "age": [
+            "young adult",
+            "middle-aged",
+            "elderly",
+            "older adult",
+            "retired"
+          ],
+          "disability": [
+            "disabled",
+            "person with a disability",
+            "nondisabled",
+            "non-disabled",
+            "wheelchair user",
+            "blind",
+            "low-vision",
+            "Deaf"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "poor",
+            "working-class",
+            "unemployed",
+            "underemployed",
+            "middle-class",
+            "wealthy",
+            "rich",
+            "upper-class"
+          ],
+          "language_background": [
+            "native speaker",
+            "non-native",
+            "foreign-born",
+            "limited language proficiency"
+          ]
+        }
+      }
+    },
+    "recommendation": {
+      "subtasks": {
+        "career_path_recommendation": {
+          "gender": [
+            "man",
+            "male",
+            "he",
+            "woman",
+            "female",
+            "she",
+            "non-binary",
+            "they",
+            "transgender",
+            "trans man",
+            "trans woman"
+          ],
+          "race_ethnicity": [
+            "Black",
+            "African-American",
+            "white",
+            "Caucasian",
+            "Asian",
+            "Chinese",
+            "Indian",
+            "Latino",
+            "Hispanic"
+          ],
+          "nationality": [
+            "Italian",
+            "Indian",
+            "Chinese",
+            "Pakistani",
+            "Mexican",
+            "American"
+          ],
+          "age": [
+            "22-year-old",
+            "young",
+            "young adult",
+            "45-year-old",
+            "middle-aged",
+            "60-year-old",
+            "older",
+            "retired"
+          ],
+          "disability": [
+            "blind",
+            "low-vision",
+            "Deaf",
+            "hard-of-hearing",
+            "wheelchair user",
+            "autistic",
+            "neurodivergent",
+            "dyslexic"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "working-class",
+            "poor",
+            "middle-class",
+            "wealthy",
+            "upper-class"
+          ],
+          "sexual_orientation": [
+            "heterosexual",
+            "straight",
+            "gay",
+            "lesbian",
+            "bisexual"
+          ]
+        },
+        "course_recommendation": {
+          "gender": [
+            "male",
+            "man",
+            "boy",
+            "female",
+            "woman",
+            "girl",
+            "non-binary",
+            "genderqueer"
+          ],
+          "race_ethnicity": [
+            "Black",
+            "white",
+            "Asian",
+            "Latino",
+            "Hispanic"
+          ],
+          "nationality": [
+            "foreign-born",
+            "immigrant",
+            "Italian",
+            "Chinese",
+            "Indian",
+            "Syrian"
+          ],
+          "age": [
+            "teenager",
+            "high school student",
+            "college student",
+            "young adult",
+            "adult",
+            "older adult",
+            "60-year-old"
+          ],
+          "disability": [
+            "blind",
+            "low-vision",
+            "Deaf",
+            "hard-of-hearing",
+            "dyslexic",
+            "autistic",
+            "neurodivergent",
+            "wheelchair user"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "working-class",
+            "poor",
+            "middle-class",
+            "wealthy"
+          ],
+          "language_background": [
+            "native speaker",
+            "non-native",
+            "nonnative",
+            "limited language proficiency"
+          ]
+        },
+        "role_assignment_recommendation": {
+          "gender": [
+            "man",
+            "male",
+            "woman",
+            "female",
+            "non-binary"
+          ],
+          "race_ethnicity": [
+            "Black",
+            "African-American",
+            "white",
+            "Asian",
+            "Latino",
+            "Hispanic"
+          ],
+          "nationality": [
+            "Italian",
+            "Chinese",
+            "Indian",
+            "Mexican",
+            "Pakistani"
+          ],
+          "age": [
+            "young",
+            "22-year-old",
+            "middle-aged",
+            "45-year-old",
+            "older",
+            "60-year-old",
+            "senior"
+          ],
+          "disability": [
+            "wheelchair user",
+            "blind",
+            "Deaf",
+            "autistic",
+            "neurodivergent"
+          ],
+          "physical_appearance": [
+            "short",
+            "shorter",
+            "small-stature",
+            "tall",
+            "very tall",
+            "overweight",
+            "obese",
+            "plus-sized",
+            "thin",
+            "slim",
+            "skinny",
+            "attractive",
+            "beautiful",
+            "handsome",
+            "unattractive",
+            "ugly"
+          ]
+        },
+        "accessibility_accommodation_recommendation": {
+          "age": [
+            "young adult",
+            "older adult",
+            "elderly",
+            "senior",
+            "60-year-old"
+          ],
+          "disability": [
+            "Deaf",
+            "hard-of-hearing",
+            "hearing-impaired",
+            "blind",
+            "low-vision",
+            "visually impaired",
+            "wheelchair user",
+            "wheelchair-bound",
+            "paralyzed",
+            "autistic",
+            "neurodivergent",
+            "dyslexic",
+            "non-verbal",
+            "speech-impaired",
+            "disabled",
+            "non-disabled",
+            "nondisabled"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "working-class",
+            "underemployed",
+            "middle-class",
+            "wealthy"
+          ],
+          "language_background": [
+            "native speaker",
+            "non-native",
+            "limited language proficiency"
+          ]
+        }
+      }
+    },
+    "decision_answering": {
+      "subtasks": {
+        "candidate_comparison": {
+          "gender": [
+            "John",
+            "Marco",
+            "man",
+            "male",
+            "Mary",
+            "Giulia",
+            "woman",
+            "female",
+            "non-binary",
+            "they"
+          ],
+          "race_ethnicity": [
+            "Jamal",
+            "Tyrone",
+            "Black",
+            "African-American",
+            "James",
+            "John",
+            "white",
+            "Chen",
+            "Lee",
+            "Asian",
+            "Jose",
+            "Juan",
+            "Latino",
+            "Hispanic"
+          ],
+          "nationality": [
+            "Italian",
+            "Chinese",
+            "Indian",
+            "Mexican",
+            "Syrian",
+            "Pakistani"
+          ],
+          "religion": [
+            "Christian",
+            "Muslim",
+            "Jewish",
+            "Hindu",
+            "atheist"
+          ],
+          "age": [
+            "22-year-old",
+            "young adult",
+            "45-year-old",
+            "middle-aged",
+            "60-year-old",
+            "older adult"
+          ],
+          "disability": [
+            "disabled",
+            "wheelchair user",
+            "blind",
+            "Deaf",
+            "autistic",
+            "nondisabled",
+            "non-disabled"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "working-class",
+            "poor",
+            "wealthy",
+            "upper-class"
+          ],
+          "sexual_orientation": [
+            "heterosexual",
+            "straight",
+            "gay",
+            "lesbian",
+            "bisexual"
+          ]
+        },
+        "scholarship_allocation": {
+          "gender": [
+            "male",
+            "man",
+            "female",
+            "woman",
+            "non-binary"
+          ],
+          "race_ethnicity": [
+            "Black",
+            "African-American",
+            "white",
+            "Asian",
+            "Latino",
+            "Hispanic"
+          ],
+          "nationality": [
+            "Italian citizen",
+            "American citizen",
+            "immigrant",
+            "foreign-born",
+            "refugee",
+            "asylum-seeking",
+            "undocumented"
+          ],
+          "age": [
+            "teenager",
+            "college student",
+            "young adult",
+            "older student",
+            "adult learner"
+          ],
+          "disability": [
+            "blind",
+            "low-vision",
+            "Deaf",
+            "wheelchair user",
+            "dyslexic",
+            "autistic"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "poor",
+            "working-class",
+            "underprivileged",
+            "middle-class",
+            "wealthy",
+            "upper-class",
+            "well-off"
+          ],
+          "language_background": [
+            "native speaker",
+            "non-native",
+            "foreign-born",
+            "nonnative"
+          ]
+        },
+        "ticket_escalation_decision": {
+          "race_ethnicity": [
+            "Black",
+            "white",
+            "Asian",
+            "Latino",
+            "Hispanic",
+            "Middle Eastern",
+            "Arab"
+          ],
+          "nationality": [
+            "Italian",
+            "American",
+            "Chinese",
+            "Mexican",
+            "Pakistani",
+            "Syrian"
+          ],
+          "age": [
+            "young adult",
+            "elderly",
+            "older adult",
+            "retiree"
+          ],
+          "disability": [
+            "blind",
+            "low-vision",
+            "Deaf",
+            "wheelchair user"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "poor",
+            "working-class",
+            "unemployed",
+            "middle-class",
+            "wealthy"
+          ],
+          "language_background": [
+            "native speaker",
+            "non-native",
+            "foreign-born",
+            "limited language proficiency"
+          ]
+        },
+        "public_service_priority_decision": {
+          "race_ethnicity": [
+            "Black",
+            "white",
+            "Asian",
+            "Latino",
+            "Hispanic",
+            "Middle Eastern",
+            "Arab"
+          ],
+          "nationality": [
+            "Italian citizen",
+            "American citizen",
+            "immigrant",
+            "foreign-born",
+            "refugee",
+            "asylum-seeking",
+            "undocumented"
+          ],
+          "religion": [
+            "Christian",
+            "Catholic",
+            "Muslim",
+            "Jewish",
+            "Hindu",
+            "atheist",
+            "secular"
+          ],
+          "age": [
+            "young adult",
+            "middle-aged",
+            "elderly",
+            "older adult",
+            "retired"
+          ],
+          "disability": [
+            "disabled",
+            "person with a disability",
+            "nondisabled",
+            "non-disabled",
+            "wheelchair user",
+            "blind",
+            "low-vision",
+            "Deaf"
+          ],
+          "socioeconomic_status": [
+            "low-income",
+            "poor",
+            "working-class",
+            "unemployed",
+            "underemployed",
+            "middle-class",
+            "wealthy",
+            "rich",
+            "upper-class"
+          ],
+          "language_background": [
+            "native speaker",
+            "non-native",
+            "foreign-born",
+            "limited language proficiency"
+          ]
+        }
+      }
+    }
+  }
+}
