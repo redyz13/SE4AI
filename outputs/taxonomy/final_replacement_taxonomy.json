@@ -1,0 +1,701 @@
+{
+  "metadata": {
+    "project": "SE4AI",
+    "file": "final_replacement_taxonomy.json",
+    "purpose": "Replacement-aware bias taxonomy for controlled counterfactual prompt generation.",
+    "sources": [
+      "CrowS-Pairs lexicon",
+      "BBQ taxonomy/lexicon",
+      "HolisticBias descriptors/lexicon"
+    ],
+    "design_principle": "Terms are grouped by bias axis and replacement group. Terms should only be rotated within the same replacement group and compatible slot type.",
+    "note": "This file complements the task taxonomy. It prevents invalid substitutions such as replacing a person name with a pronoun, or a nationality adjective with a migration status."
+  },
+  "replacement_taxonomy": {
+    "gender": {
+      "person_name": {
+        "slot_type": "name",
+        "values": {
+          "male": [
+            "John",
+            "Marco"
+          ],
+          "female": [
+            "Mary",
+            "Giulia"
+          ],
+          "neutral_or_nonbinary": [
+            "Alex",
+            "Taylor"
+          ]
+        },
+        "usage_notes": "Use only in name slots. Names may also act as proxies for ethnicity/nationality; use with caution."
+      },
+      "adult_identity_noun": {
+        "slot_type": "identity_noun",
+        "values": {
+          "male": [
+            "man"
+          ],
+          "female": [
+            "woman"
+          ],
+          "nonbinary": [
+            "non-binary person",
+            "genderqueer person"
+          ]
+        },
+        "usage_notes": "Use in slots such as 'the candidate is a/an ...'."
+      },
+      "student_identity_noun": {
+        "slot_type": "identity_noun",
+        "values": {
+          "male": [
+            "boy"
+          ],
+          "female": [
+            "girl"
+          ],
+          "nonbinary": [
+            "non-binary student"
+          ]
+        },
+        "usage_notes": "Use only in education/student contexts."
+      },
+      "identity_adjective": {
+        "slot_type": "adjective",
+        "values": {
+          "male": [
+            "male"
+          ],
+          "female": [
+            "female"
+          ],
+          "nonbinary": [
+            "non-binary"
+          ]
+        },
+        "usage_notes": "Use in adjective slots such as 'a male/female/non-binary candidate'."
+      },
+      "pronoun_subject": {
+        "slot_type": "pronoun_subject",
+        "values": {
+          "male": [
+            "he"
+          ],
+          "female": [
+            "she"
+          ],
+          "nonbinary": [
+            "they"
+          ]
+        },
+        "usage_notes": "Use only for subject pronoun slots."
+      },
+      "pronoun_object": {
+        "slot_type": "pronoun_object",
+        "values": {
+          "male": [
+            "him"
+          ],
+          "female": [
+            "her"
+          ],
+          "nonbinary": [
+            "them"
+          ]
+        },
+        "usage_notes": "Use only for object pronoun slots."
+      },
+      "pronoun_possessive": {
+        "slot_type": "pronoun_possessive",
+        "values": {
+          "male": [
+            "his"
+          ],
+          "female": [
+            "her"
+          ],
+          "nonbinary": [
+            "their"
+          ]
+        },
+        "usage_notes": "Use only for possessive pronoun slots."
+      },
+      "trans_identity": {
+        "slot_type": "identity_noun",
+        "values": {
+          "trans_man": [
+            "transgender man",
+            "trans man"
+          ],
+          "trans_woman": [
+            "transgender woman",
+            "trans woman"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "Use only in explicit gender identity slots. Do not treat as a simple substitute for man/woman in all templates."
+      }
+    },
+    "race_ethnicity": {
+      "direct_descriptor": {
+        "slot_type": "descriptor",
+        "values": {
+          "black": [
+            "Black",
+            "African-American"
+          ],
+          "white": [
+            "white",
+            "Caucasian"
+          ],
+          "asian": [
+            "Asian",
+            "East Asian",
+            "South Asian"
+          ],
+          "latino_hispanic": [
+            "Latino",
+            "Latina",
+            "Hispanic",
+            "Latinx"
+          ],
+          "middle_eastern_arab": [
+            "Middle Eastern",
+            "Arab"
+          ]
+        },
+        "usage_notes": "Use direct group descriptors. Do not mix with proxy names in the same counterfactual set."
+      },
+      "proxy_name": {
+        "slot_type": "name",
+        "values": {
+          "black_associated": [
+            "Jamal",
+            "Tyrone"
+          ],
+          "white_associated": [
+            "James"
+          ],
+          "east_asian_associated": [
+            "Chen",
+            "Lee"
+          ],
+          "latino_hispanic_associated": [
+            "Jose",
+            "Juan"
+          ]
+        },
+        "usage_notes": "Use only in name slots. Names are proxies and may encode multiple axes."
+      },
+      "ambiguous_origin_descriptor": {
+        "slot_type": "descriptor",
+        "values": {
+          "african": [
+            "African"
+          ],
+          "european": [
+            "European"
+          ],
+          "chinese": [
+            "Chinese"
+          ],
+          "korean": [
+            "Korean"
+          ],
+          "indian": [
+            "Indian"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "May encode ethnicity, nationality, region, or origin. Prefer nationality.country_adjective when testing nationality."
+      }
+    },
+    "nationality": {
+      "country_adjective": {
+        "slot_type": "nationality_adjective",
+        "values": {
+          "italian": [
+            "Italian"
+          ],
+          "american": [
+            "American"
+          ],
+          "chinese": [
+            "Chinese"
+          ],
+          "indian": [
+            "Indian"
+          ],
+          "pakistani": [
+            "Pakistani"
+          ],
+          "syrian": [
+            "Syrian"
+          ],
+          "mexican": [
+            "Mexican"
+          ]
+        },
+        "usage_notes": "Use for standard nationality/origin counterfactuals."
+      },
+      "citizenship_status": {
+        "slot_type": "citizenship_status",
+        "values": {
+          "italian_citizen": [
+            "Italian citizen"
+          ],
+          "american_citizen": [
+            "American citizen"
+          ],
+          "naturalized": [
+            "naturalized citizen"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "Use only when citizenship status is explicitly part of the template."
+      },
+      "migration_status": {
+        "slot_type": "migration_status",
+        "values": {
+          "immigrant": [
+            "immigrant"
+          ],
+          "foreign_born": [
+            "foreign-born"
+          ],
+          "refugee": [
+            "refugee"
+          ],
+          "asylum_seeking": [
+            "asylum-seeking"
+          ],
+          "undocumented": [
+            "undocumented"
+          ]
+        },
+        "usage_status": "sensitive_context_dependent",
+        "usage_notes": "Use only in public service, eligibility, or migration-related contexts. Do not rotate with country adjectives."
+      }
+    },
+    "religion": {
+      "broad_religious_identity": {
+        "slot_type": "religious_identity",
+        "values": {
+          "christian": [
+            "Christian"
+          ],
+          "muslim": [
+            "Muslim"
+          ],
+          "jewish": [
+            "Jewish"
+          ],
+          "hindu": [
+            "Hindu"
+          ],
+          "atheist": [
+            "atheist"
+          ],
+          "agnostic": [
+            "agnostic"
+          ],
+          "secular": [
+            "secular"
+          ]
+        },
+        "usage_notes": "Preferred group for broad religion counterfactuals."
+      },
+      "christian_denomination": {
+        "slot_type": "religious_denomination",
+        "values": {
+          "catholic": [
+            "Catholic"
+          ],
+          "protestant": [
+            "Protestant"
+          ]
+        },
+        "usage_notes": "Use only for within-Christian denomination tests."
+      },
+      "muslim_denomination": {
+        "slot_type": "religious_denomination",
+        "values": {
+          "sunni": [
+            "Sunni"
+          ],
+          "shia": [
+            "Shia"
+          ]
+        },
+        "usage_notes": "Use only for within-Muslim denomination tests."
+      },
+      "jewish_identity": {
+        "slot_type": "religious_or_ethnoreligious_identity",
+        "values": {
+          "orthodox_jewish": [
+            "Orthodox Jewish"
+          ],
+          "ashkenazi_jewish": [
+            "Ashkenazi Jewish"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "Use only in templates that can handle specific Jewish identities."
+      }
+    },
+    "age": {
+      "numeric_age": {
+        "slot_type": "age_numeric",
+        "values": {
+          "young_adult": [
+            "22-year-old"
+          ],
+          "middle_age": [
+            "45-year-old",
+            "50-year-old"
+          ],
+          "older_adult": [
+            "60-year-old",
+            "65-year-old"
+          ]
+        },
+        "usage_notes": "Preferred group for clean age counterfactuals."
+      },
+      "age_descriptor": {
+        "slot_type": "age_descriptor",
+        "values": {
+          "young": [
+            "young",
+            "young adult",
+            "twenty-something"
+          ],
+          "middle_aged": [
+            "middle-aged"
+          ],
+          "older": [
+            "older",
+            "older adult",
+            "elderly",
+            "senior"
+          ]
+        },
+        "usage_notes": "Use in descriptor slots. Less precise than numeric_age."
+      },
+      "education_stage_proxy": {
+        "slot_type": "education_stage",
+        "values": {
+          "teen": [
+            "teenager",
+            "adolescent",
+            "high school student"
+          ],
+          "college": [
+            "college student",
+            "university student"
+          ],
+          "adult_learning": [
+            "adult learner",
+            "older student"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "Not pure age; use only in education contexts."
+      },
+      "employment_status_proxy": {
+        "slot_type": "employment_status",
+        "values": {
+          "retired": [
+            "retired",
+            "retiree"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "Not pure age; can be task-relevant in employment contexts."
+      }
+    },
+    "disability": {
+      "vision": {
+        "slot_type": "disability_descriptor",
+        "values": {
+          "blind": [
+            "blind"
+          ],
+          "low_vision": [
+            "low-vision",
+            "visually impaired"
+          ]
+        },
+        "usage_notes": "Use for vision-related disability counterfactuals."
+      },
+      "hearing": {
+        "slot_type": "disability_descriptor",
+        "values": {
+          "deaf": [
+            "Deaf"
+          ],
+          "hard_of_hearing": [
+            "hard-of-hearing"
+          ]
+        },
+        "usage_notes": "Use for hearing-related disability counterfactuals."
+      },
+      "mobility": {
+        "slot_type": "disability_descriptor",
+        "values": {
+          "wheelchair_user": [
+            "wheelchair user",
+            "person who uses a wheelchair"
+          ],
+          "paralyzed": [
+            "paralyzed"
+          ]
+        },
+        "usage_notes": "Prefer wheelchair user/person who uses a wheelchair for neutral generation."
+      },
+      "neurodivergence": {
+        "slot_type": "disability_descriptor",
+        "values": {
+          "autistic": [
+            "autistic"
+          ],
+          "neurodivergent": [
+            "neurodivergent"
+          ],
+          "dyslexic": [
+            "dyslexic"
+          ]
+        },
+        "usage_notes": "Use in neurodivergence-related slots."
+      },
+      "general_disability": {
+        "slot_type": "disability_descriptor",
+        "values": {
+          "disabled": [
+            "disabled",
+            "person with a disability"
+          ],
+          "non_disabled": [
+            "non-disabled",
+            "nondisabled"
+          ]
+        },
+        "usage_notes": "Use when the template requires general disability status."
+      },
+      "sensitive_or_deprecated_terms": {
+        "slot_type": "disability_descriptor",
+        "values": {
+          "wheelchair_bound": [
+            "wheelchair-bound"
+          ],
+          "hearing_impaired": [
+            "hearing-impaired"
+          ],
+          "speech_impaired": [
+            "speech-impaired"
+          ],
+          "non_verbal": [
+            "non-verbal"
+          ]
+        },
+        "usage_status": "sensitive_or_deprecated",
+        "usage_notes": "Exclude from default generation unless explicitly testing terminology sensitivity."
+      }
+    },
+    "socioeconomic_status": {
+      "income_level": {
+        "slot_type": "socioeconomic_descriptor",
+        "values": {
+          "low": [
+            "low-income"
+          ],
+          "middle": [
+            "middle-class"
+          ],
+          "high": [
+            "wealthy",
+            "rich",
+            "well-off"
+          ]
+        },
+        "usage_notes": "Preferred group for clean socioeconomic counterfactuals."
+      },
+      "class_background": {
+        "slot_type": "class_descriptor",
+        "values": {
+          "working_class": [
+            "working-class"
+          ],
+          "upper_class": [
+            "upper-class"
+          ],
+          "underprivileged": [
+            "underprivileged"
+          ]
+        },
+        "usage_notes": "Use for social class/background framing."
+      },
+      "employment_status_proxy": {
+        "slot_type": "employment_status",
+        "values": {
+          "unemployed": [
+            "unemployed"
+          ],
+          "underemployed": [
+            "underemployed"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "Not pure SES; may be task-relevant in hiring/career/eligibility contexts."
+      },
+      "stigmatizing_descriptor": {
+        "slot_type": "socioeconomic_descriptor",
+        "values": {
+          "poor": [
+            "poor"
+          ]
+        },
+        "usage_status": "sensitive_or_stigmatizing",
+        "usage_notes": "Use cautiously; prefer low-income for neutral generation."
+      }
+    },
+    "sexual_orientation": {
+      "specific_orientation": {
+        "slot_type": "sexual_orientation_descriptor",
+        "values": {
+          "heterosexual": [
+            "heterosexual",
+            "straight"
+          ],
+          "gay": [
+            "gay"
+          ],
+          "lesbian": [
+            "lesbian"
+          ],
+          "bisexual": [
+            "bisexual"
+          ],
+          "queer": [
+            "queer"
+          ]
+        },
+        "usage_notes": "Preferred group for sexual orientation counterfactuals."
+      },
+      "umbrella_identity": {
+        "slot_type": "identity_umbrella",
+        "values": {
+          "lgbtq": [
+            "LGBTQ+"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "Umbrella term; do not rotate with specific orientations unless explicitly intended."
+      }
+    },
+    "physical_appearance": {
+      "height": {
+        "slot_type": "appearance_descriptor",
+        "values": {
+          "short": [
+            "short",
+            "shorter",
+            "small-stature"
+          ],
+          "tall": [
+            "tall",
+            "taller",
+            "very tall"
+          ]
+        },
+        "usage_notes": "Preferred group for appearance tests involving height."
+      },
+      "body_size_neutral_or_less_loaded": {
+        "slot_type": "appearance_descriptor",
+        "values": {
+          "larger_body": [
+            "plus-sized",
+            "overweight"
+          ],
+          "smaller_body": [
+            "thin",
+            "slim"
+          ]
+        },
+        "usage_notes": "Use for body-size tests; terms may still be sensitive depending on context."
+      },
+      "body_size_sensitive": {
+        "slot_type": "appearance_descriptor",
+        "values": {
+          "larger_body_stigmatizing": [
+            "fat",
+            "obese"
+          ],
+          "smaller_body_stigmatizing": [
+            "skinny"
+          ]
+        },
+        "usage_status": "sensitive_or_stigmatizing",
+        "usage_notes": "Exclude from default generation unless explicitly testing stigmatizing appearance terms."
+      },
+      "attractiveness_evaluation": {
+        "slot_type": "evaluative_appearance_descriptor",
+        "values": {
+          "positive": [
+            "attractive",
+            "beautiful",
+            "handsome"
+          ],
+          "negative": [
+            "unattractive",
+            "ugly"
+          ]
+        },
+        "usage_status": "evaluative_context_dependent",
+        "usage_notes": "Not neutral appearance descriptors; use in separate attractiveness-bias tests."
+      }
+    },
+    "language_background": {
+      "language_proficiency_status": {
+        "slot_type": "language_background_descriptor",
+        "values": {
+          "native": [
+            "native speaker"
+          ],
+          "non_native": [
+            "non-native",
+            "nonnative"
+          ],
+          "limited_proficiency": [
+            "limited language proficiency"
+          ]
+        },
+        "usage_notes": "Limited proficiency can be task-relevant in language evaluation tasks."
+      },
+      "accent_proxy": {
+        "slot_type": "language_background_proxy",
+        "values": {
+          "accented": [
+            "accented speaker"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "Proxy of perceived language/nationality background; use cautiously."
+      },
+      "birth_origin_proxy": {
+        "slot_type": "origin_proxy",
+        "values": {
+          "native_born": [
+            "native-born"
+          ],
+          "foreign_born": [
+            "foreign-born"
+          ]
+        },
+        "usage_status": "context_dependent",
+        "usage_notes": "Origin proxy, not pure language proficiency."
+      }
+    }
+  }
+}

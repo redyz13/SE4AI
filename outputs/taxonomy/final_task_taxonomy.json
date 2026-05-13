@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "project": "SE4AI",
+    "file": "final_task_taxonomy.json",
+    "purpose": "Task/subtask-specific taxonomy specifying which bias axes and replacement groups are allowed for prompt and counterfactual prompt generation.",
+    "sources": [
+      "CrowS-Pairs lexicon",
+      "BBQ taxonomy/lexicon",
+      "HolisticBias descriptors/lexicon"
+    ],
+    "taxonomy_levels": [
+      "task_type",
+      "subtask",
+      "bias_axis",
+      "allowed_replacement_groups"
+    ],
+    "note": "This version does not store raw terms inside each subtask. Instead, each subtask points to compatible replacement groups defined in final_replacement_taxonomy.json."
+  },
+  "tasks": {
+    "classification": {
+      "subtasks": {
+        "hiring_screening": {
+          "gender": [
+            "person_name",
+            "adult_identity_noun",
+            "identity_adjective"
+          ],
+          "race_ethnicity": [
+            "direct_descriptor",
+            "proxy_name"
+          ],
+          "nationality": [
+            "country_adjective"
+          ],
+          "religion": [
+            "broad_religious_identity"
+          ],
+          "age": [
+            "numeric_age",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "neurodivergence",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background"
+          ],
+          "sexual_orientation": [
+            "specific_orientation"
+          ],
+          "physical_appearance": [
+            "height",
+            "body_size_neutral_or_less_loaded"
+          ]
+        },
+        "student_evaluation": {
+          "gender": [
+            "person_name",
+            "student_identity_noun",
+            "identity_adjective"
+          ],
+          "race_ethnicity": [
+            "direct_descriptor",
+            "proxy_name"
+          ],
+          "nationality": [
+            "country_adjective"
+          ],
+          "age": [
+            "education_stage_proxy",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "neurodivergence",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background"
+          ],
+          "language_background": [
+            "language_proficiency_status",
+            "accent_proxy",
+            "birth_origin_proxy"
+          ]
+        },
+        "ticket_priority_classification": {
+          "race_ethnicity": [
+            "direct_descriptor",
+            "proxy_name"
+          ],
+          "nationality": [
+            "country_adjective"
+          ],
+          "age": [
+            "age_descriptor",
+            "numeric_age"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background"
+          ],
+          "language_background": [
+            "language_proficiency_status",
+            "accent_proxy",
+            "birth_origin_proxy"
+          ]
+        },
+        "eligibility_classification": {
+          "race_ethnicity": [
+            "direct_descriptor"
+          ],
+          "nationality": [
+            "country_adjective",
+            "citizenship_status",
+            "migration_status"
+          ],
+          "religion": [
+            "broad_religious_identity"
+          ],
+          "age": [
+            "numeric_age",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background",
+            "employment_status_proxy"
+          ],
+          "language_background": [
+            "language_proficiency_status",
+            "birth_origin_proxy"
+          ]
+        }
+      }
+    },
+    "recommendation": {
+      "subtasks": {
+        "career_path_recommendation": {
+          "gender": [
+            "person_name",
+            "adult_identity_noun",
+            "identity_adjective"
+          ],
+          "race_ethnicity": [
+            "direct_descriptor",
+            "proxy_name"
+          ],
+          "nationality": [
+            "country_adjective"
+          ],
+          "age": [
+            "numeric_age",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "neurodivergence",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background"
+          ],
+          "sexual_orientation": [
+            "specific_orientation"
+          ]
+        },
+        "course_recommendation": {
+          "gender": [
+            "person_name",
+            "student_identity_noun",
+            "identity_adjective"
+          ],
+          "race_ethnicity": [
+            "direct_descriptor",
+            "proxy_name"
+          ],
+          "nationality": [
+            "country_adjective"
+          ],
+          "age": [
+            "education_stage_proxy",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "neurodivergence",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background"
+          ],
+          "language_background": [
+            "language_proficiency_status",
+            "accent_proxy",
+            "birth_origin_proxy"
+          ]
+        },
+        "role_assignment_recommendation": {
+          "gender": [
+            "person_name",
+            "adult_identity_noun",
+            "identity_adjective"
+          ],
+          "race_ethnicity": [
+            "direct_descriptor",
+            "proxy_name"
+          ],
+          "nationality": [
+            "country_adjective"
+          ],
+          "age": [
+            "numeric_age",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "neurodivergence",
+            "general_disability"
+          ],
+          "physical_appearance": [
+            "height",
+            "body_size_neutral_or_less_loaded"
+          ]
+        },
+        "accessibility_accommodation_recommendation": {
+          "age": [
+            "numeric_age",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "neurodivergence",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background"
+          ],
+          "language_background": [
+            "language_proficiency_status"
+          ]
+        }
+      }
+    },
+    "decision_answering": {
+      "subtasks": {
+        "candidate_comparison": {
+          "gender": [
+            "person_name",
+            "adult_identity_noun",
+            "identity_adjective"
+          ],
+          "race_ethnicity": [
+            "direct_descriptor",
+            "proxy_name"
+          ],
+          "nationality": [
+            "country_adjective"
+          ],
+          "religion": [
+            "broad_religious_identity"
+          ],
+          "age": [
+            "numeric_age",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "neurodivergence",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background"
+          ],
+          "sexual_orientation": [
+            "specific_orientation"
+          ]
+        },
+        "scholarship_allocation": {
+          "gender": [
+            "person_name",
+            "student_identity_noun",
+            "identity_adjective"
+          ],
+          "race_ethnicity": [
+            "direct_descriptor",
+            "proxy_name"
+          ],
+          "nationality": [
+            "country_adjective",
+            "citizenship_status",
+            "migration_status"
+          ],
+          "age": [
+            "education_stage_proxy",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "neurodivergence",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background"
+          ],
+          "language_background": [
+            "language_proficiency_status",
+            "birth_origin_proxy"
+          ]
+        },
+        "ticket_escalation_decision": {
+          "race_ethnicity": [
+            "direct_descriptor",
+            "proxy_name"
+          ],
+          "nationality": [
+            "country_adjective"
+          ],
+          "age": [
+            "numeric_age",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background"
+          ],
+          "language_background": [
+            "language_proficiency_status",
+            "accent_proxy",
+            "birth_origin_proxy"
+          ]
+        },
+        "public_service_priority_decision": {
+          "race_ethnicity": [
+            "direct_descriptor"
+          ],
+          "nationality": [
+            "country_adjective",
+            "citizenship_status",
+            "migration_status"
+          ],
+          "religion": [
+            "broad_religious_identity"
+          ],
+          "age": [
+            "numeric_age",
+            "age_descriptor"
+          ],
+          "disability": [
+            "vision",
+            "hearing",
+            "mobility",
+            "general_disability"
+          ],
+          "socioeconomic_status": [
+            "income_level",
+            "class_background",
+            "employment_status_proxy"
+          ],
+          "language_background": [
+            "language_proficiency_status",
+            "birth_origin_proxy"
+          ]
+        }
+      }
+    }
+  },
+  "generation_rules": {
+    "rule_1": "Select a task and subtask from this file.",
+    "rule_2": "Select one bias axis allowed for that subtask.",
+    "rule_3": "Select one replacement group allowed for that axis/subtask.",
+    "rule_4": "Use only terms from the same replacement group in final_replacement_taxonomy.json.",
+    "rule_5": "Do not mix direct descriptors and proxy names in the same counterfactual set unless explicitly designing a proxy-vs-direct experiment.",
+    "rule_6": "Terms marked context_dependent, sensitive_or_deprecated, sensitive_or_stigmatizing, or evaluative_context_dependent should be excluded from default generation unless explicitly enabled."
+  }
+}
