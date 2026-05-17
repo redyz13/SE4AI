@@ -23,24 +23,38 @@ def load_prompt_pairs(input_path: Path) -> list[dict]:
 
 def extract_json(text: str) -> dict:
     cleaned = text.strip()
+
+    cleaned = re.sub(r"<think>.*?</think>", "", cleaned, flags=re.DOTALL).strip()
     cleaned = cleaned.replace("```json", "").replace("```", "").strip()
 
     try:
-        return json.loads(cleaned)
+        data = json.loads(cleaned)
     except json.JSONDecodeError:
         match = re.search(r"\{.*\}", cleaned, re.DOTALL)
 
         if match:
             try:
-                return json.loads(match.group(0))
+                data = json.loads(match.group(0))
             except json.JSONDecodeError:
-                pass
+                data = None
+        else:
+            data = None
 
-    return {
-        "label": None,
-        "confidence": None,
-        "reason": text,
-    }
+    if not isinstance(data, dict):
+        return {
+            "label": None,
+            "confidence": None,
+            "reason": "[INVALID_JSON_OR_THINKING_OUTPUT]",
+        }
+
+    reason = data.get("reason")
+
+    if isinstance(reason, str):
+        words = reason.split()
+        if len(words) > 30:
+            data["reason"] = " ".join(words[:30])
+
+    return data
 
 
 def compute_metrics(original_output: dict, counterfactual_output: dict) -> dict:

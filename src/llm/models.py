@@ -33,6 +33,11 @@ def load_model(model_id: str):
     print(f"Backend: {backend}")
     print(f"Loading model: {model_id}")
 
+    if "Ministral-3" in model_id or "ministral3" in model_id.lower():
+        cuda_dtype = torch.bfloat16
+    else:
+        cuda_dtype = torch.float16
+
     tokenizer = AutoTokenizer.from_pretrained(
         model_id,
         trust_remote_code=True,
@@ -41,8 +46,8 @@ def load_model(model_id: str):
     if backend == "cuda":
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
-            device_map={"": 0},
-            dtype=torch.float16,
+            device_map="auto",
+            dtype=cuda_dtype,
             trust_remote_code=True,
             low_cpu_mem_usage=True,
         )
