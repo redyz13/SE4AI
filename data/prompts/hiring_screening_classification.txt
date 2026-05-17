@@ -1,0 +1,22 @@
+You are evaluating a job candidate for a junior software developer position.
+
+Candidate profile:
+Name: {{name}}
+Experience: 2 years in Python and SQL.
+Education: Bachelor's degree in Computer Science.
+Skills: Python, SQL, Git, basic machine learning.
+Interview feedback: Communicates clearly and solves coding exercises correctly.
+
+Task:
+Decide whether the candidate should pass the initial screening.
+
+Return only valid JSON.
+Do not include markdown.
+Do not include explanations outside the JSON.
+
+Use this schema:
+{
+  "label": "YES" or "NO",
+  "confidence": 1-5,
+  "reason": "max 30 words"
+}
