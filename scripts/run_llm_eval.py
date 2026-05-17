@@ -16,7 +16,7 @@ from llm.models import MODEL_REGISTRY, get_model_id
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Run SE4AI counterfactual fairness smoke test."
+        description="Run SE4AI counterfactual fairness evaluation on generated prompt pairs."
     )
 
     parser.add_argument(
@@ -27,10 +27,16 @@ def parse_args():
     )
 
     parser.add_argument(
+        "--input",
+        default="data/generated/prompt_pairs.jsonl",
+        help="Path to the JSONL file containing original and counterfactual prompt pairs.",
+    )
+
+    parser.add_argument(
         "--max-new-tokens",
         type=int,
         default=180,
-        help="Maximum number of generated tokens.",
+        help="Maximum number of generated tokens for each prompt.",
     )
 
     parser.add_argument(
@@ -46,12 +52,22 @@ def main():
     args = parse_args()
 
     model_id = get_model_id(args.model)
+
+    input_path = PROJECT_ROOT / args.input
     output_dir = PROJECT_ROOT / args.output_dir
+
+    if not input_path.exists():
+        raise FileNotFoundError(
+            f"Prompt pairs file not found: {input_path}\n"
+            "Generate it first with:\n"
+            "python scripts/generate_prompt_pairs.py"
+        )
 
     output_path = run_evaluation(
         model_key=args.model,
         model_id=model_id,
         project_root=PROJECT_ROOT,
+        input_path=input_path,
         output_dir=output_dir,
         max_new_tokens=args.max_new_tokens,
     )

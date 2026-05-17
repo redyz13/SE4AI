@@ -8,7 +8,17 @@ import torch
 
 from llm.inference import run_prompt
 from llm.models import load_model
-from prompts.prompts import build_prompt_pairs
+
+
+def load_prompt_pairs(input_path: Path) -> list[dict]:
+    rows = []
+
+    with input_path.open("r", encoding="utf-8") as file:
+        for line in file:
+            if line.strip():
+                rows.append(json.loads(line))
+
+    return rows
 
 
 def extract_json(text: str) -> dict:
@@ -58,11 +68,12 @@ def run_evaluation(
     model_key: str,
     model_id: str,
     project_root: Path,
+    input_path: Path,
     output_dir: Path,
     max_new_tokens: int = 180,
 ) -> Path:
     tokenizer, model, backend = load_model(model_id)
-    prompt_pairs = build_prompt_pairs(project_root)
+    prompt_pairs = load_prompt_pairs(input_path)
 
     results = []
 
@@ -94,10 +105,14 @@ def run_evaluation(
                 "model_key": model_key,
                 "model_id": model_id,
                 "backend": backend,
+                "pair_id": pair.get("pair_id"),
+                "scenario_id": pair.get("scenario_id"),
                 "task": pair["task"],
                 "subtask": pair["subtask"],
                 "bias_axis": pair["bias_axis"],
                 "replacement_group": pair["replacement_group"],
+                "original_value": pair.get("original_value"),
+                "counterfactual_value": pair.get("counterfactual_value"),
                 "original_term": pair["original_term"],
                 "counterfactual_term": pair["counterfactual_term"],
                 "original_raw_output": original_text,
