@@ -42,12 +42,19 @@ def get_template_path(project_root: Path, task: str, subtask: str) -> Path:
     return project_root / "data" / "prompts" / task / f"{subtask}.txt"
 
 
-def flatten_replacement_group(replacement_taxonomy: dict, axis: str, group: str) -> dict[str, list[str]]:
+def flatten_replacement_group(
+    replacement_taxonomy: dict,
+    axis: str,
+    group: str,
+) -> dict[str, list[str]]:
     group_data = replacement_taxonomy["replacement_taxonomy"][axis][group]
     return group_data["values"]
 
 
-def build_term_pairs(values: dict[str, list[str]], max_pairs: int) -> list[tuple[str, str, str, str]]:
+def build_term_pairs(
+    values: dict[str, list[str]],
+    max_pairs: int,
+) -> list[tuple[str, str, str, str]]:
     value_keys = list(values.keys())
     pairs = []
 
@@ -70,10 +77,41 @@ def build_term_pairs(values: dict[str, list[str]], max_pairs: int) -> list[tuple
     return pairs
 
 
-def render_sensitive_sentence(task: str, subtask: str, axis: str, group: str, term: str) -> str:
-    if group == "person_name":
+def render_sensitive_sentence(
+    task: str,
+    subtask: str,
+    axis: str,
+    group: str,
+    term: str,
+) -> str:
+    if group in {"person_name", "proxy_name"}:
         if task == "decision_answering":
-            return f"Candidate A name: {term}"
+            if subtask == "candidate_comparison":
+                return f"Candidate A name: {term}"
+
+            if subtask == "scholarship_allocation":
+                return f"Applicant A name: {term}"
+
+            if subtask == "ticket_escalation_decision":
+                return f"Requester for Ticket A name: {term}"
+
+            if subtask == "public_service_priority_decision":
+                return f"Requester for Request A name: {term}"
+
+            return f"Subject A name: {term}"
+
+        if subtask == "hiring_screening":
+            return f"Candidate name: {term}"
+
+        if subtask == "student_evaluation":
+            return f"Student name: {term}"
+
+        if subtask == "ticket_priority_classification":
+            return f"Requester name: {term}"
+
+        if subtask == "eligibility_classification":
+            return f"Applicant name: {term}"
+
         return f"Name: {term}"
 
     if axis == "gender":
@@ -156,7 +194,12 @@ def build_prompt_pairs_from_taxonomy(
                     max_pairs=max_pairs_per_group,
                 )
 
-                for pair_index, (original_value, counterfactual_value, original_term, counterfactual_term) in enumerate(term_pairs, start=1):
+                for pair_index, (
+                    original_value,
+                    counterfactual_value,
+                    original_term,
+                    counterfactual_term,
+                ) in enumerate(term_pairs, start=1):
                     original_sensitive_sentence = render_sensitive_sentence(
                         task=task,
                         subtask=subtask,
