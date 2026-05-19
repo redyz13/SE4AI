@@ -45,6 +45,13 @@ def parse_args():
         help="Directory where CSV results are saved.",
     )
 
+    parser.add_argument(
+        "--quantization",
+        choices=["none", "8bit", "4bit"],
+        default="none",
+        help="Quantization mode used for model loading.",
+    )
+
     return parser.parse_args()
 
 
@@ -70,6 +77,7 @@ def main():
         input_path=input_path,
         output_dir=output_dir,
         max_new_tokens=args.max_new_tokens,
+        quantization=args.quantization,
     )
 
     print(f"Done. Results saved at: {output_path}")

@@ -53,6 +53,36 @@ def compute_confidence_shift(original_output: dict, counterfactual_output: dict)
     return None
 
 
+def compute_ranking_instability(
+    original_ranking: list,
+    counterfactual_ranking: list,
+):
+    if len(original_ranking) != len(counterfactual_ranking):
+        return None
+
+    original_positions = {
+        item: index
+        for index, item in enumerate(original_ranking)
+    }
+
+    counterfactual_positions = {
+        item: index
+        for index, item in enumerate(counterfactual_ranking)
+    }
+
+    if set(original_positions.keys()) != set(counterfactual_positions.keys()):
+        return None
+
+    total_distance = 0
+
+    for item in original_positions:
+        total_distance += abs(
+            original_positions[item] - counterfactual_positions[item]
+        )
+
+    return total_distance
+
+
 def compute_task_metrics(
     task: str,
     original_output: dict,
@@ -120,36 +150,6 @@ def compute_task_metrics(
     return {
         "confidence_shift": confidence_shift,
     }
-
-
-def compute_ranking_instability(
-    original_ranking: list,
-    counterfactual_ranking: list,
-):
-    if len(original_ranking) != len(counterfactual_ranking):
-        return None
-
-    original_positions = {
-        item: index
-        for index, item in enumerate(original_ranking)
-    }
-
-    counterfactual_positions = {
-        item: index
-        for index, item in enumerate(counterfactual_ranking)
-    }
-
-    if set(original_positions.keys()) != set(counterfactual_positions.keys()):
-        return None
-
-    total_distance = 0
-
-    for item in original_positions:
-        total_distance += abs(
-            original_positions[item] - counterfactual_positions[item]
-        )
-
-    return total_distance
 
 
 def build_result_row(
@@ -354,8 +354,13 @@ def run_evaluation(
     input_path: Path,
     output_dir: Path,
     max_new_tokens: int = 180,
+    quantization: str = "none",
 ) -> Path:
-    tokenizer, model, _ = load_model(model_id)
+    tokenizer, model, _ = load_model(
+        model_id=model_id,
+        quantization=quantization,
+    )
+
     prompt_pairs = load_prompt_pairs(input_path)
 
     results = []
