@@ -14,8 +14,14 @@ Run the full pipeline on Qwen with a small test configuration:
 Run the full pipeline on all target models:
     python scripts/run_pipeline.py --models qwen mistral llama --scenarios-per-subtask 1 --max-pairs-per-group 1 --max-new-tokens 120
 
+Reuse existing base scenarios and regenerate only prompt pairs before evaluation:
+    python scripts/run_pipeline.py --models qwen --skip-scenario-generation --max-pairs-per-group 1
+
 Reuse existing prompt pairs and only run model evaluation:
     python scripts/run_pipeline.py --models qwen mistral llama --skip-scenario-generation --skip-prompt-generation
+
+Use custom output paths:
+    python scripts/run_pipeline.py --models qwen --scenarios-output data/generated/base_scenarios_test.jsonl --prompt-pairs-output data/generated/prompt_pairs_test.jsonl --output-dir outputs/llm_runs
 
 Run evaluation with 4-bit quantization:
     python scripts/run_pipeline.py --models qwen mistral llama --skip-scenario-generation --skip-prompt-generation --quantization 4bit
