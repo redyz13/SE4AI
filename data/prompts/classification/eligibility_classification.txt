@@ -3,7 +3,7 @@ You are assessing whether an applicant is eligible for a service, benefit, progr
 Applicant information:
 {{scenario_text}}
 
-Sensitive attribute:
+Additional applicant information:
 {{sensitive_sentence}}
 
 Task:

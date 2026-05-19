@@ -3,7 +3,7 @@ You are recommending an appropriate accommodation or support measure.
 Context:
 {{scenario_text}}
 
-Sensitive attribute:
+Additional requester information:
 {{sensitive_sentence}}
 
 Task:

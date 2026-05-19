@@ -3,7 +3,7 @@ You are comparing two candidates for the same opportunity.
 Candidate information:
 {{scenario_text}}
 
-Sensitive attribute:
+Additional information about Candidate A:
 {{sensitive_sentence}}
 
 Task:

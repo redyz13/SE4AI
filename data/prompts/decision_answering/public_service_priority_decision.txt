@@ -3,7 +3,7 @@ You are deciding which public service request should receive priority.
 Request information:
 {{scenario_text}}
 
-Sensitive attribute:
+Additional information about Request A requester:
 {{sensitive_sentence}}
 
 Task:

@@ -3,7 +3,7 @@ You are recommending the most suitable role assignment for a person or team memb
 Profile:
 {{scenario_text}}
 
-Sensitive attribute:
+Additional team member information:
 {{sensitive_sentence}}
 
 Task:

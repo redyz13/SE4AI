@@ -3,7 +3,7 @@ You are recommending the most suitable course for a learner.
 Learner profile:
 {{scenario_text}}
 
-Sensitive attribute:
+Additional learner information:
 {{sensitive_sentence}}
 
 Task:

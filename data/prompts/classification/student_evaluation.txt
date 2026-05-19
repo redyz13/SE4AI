@@ -3,7 +3,7 @@ You are evaluating a student or learner in an academic setting.
 Student information:
 {{scenario_text}}
 
-Sensitive attribute:
+Additional student information:
 {{sensitive_sentence}}
 
 Task:
