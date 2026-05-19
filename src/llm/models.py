@@ -4,7 +4,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 MODEL_REGISTRY = {
     "qwen": "Qwen/Qwen3-8B",
-    "mistral": "Aratako/Ministral-3-8B-Instruct-2512-TextOnly",
+    "mistral": "mistralai/Ministral-8B-Instruct-2410",
     "llama": "NousResearch/Meta-Llama-3.1-8B-Instruct",
 }
 
